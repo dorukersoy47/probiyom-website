@@ -7,18 +7,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <div className="app-shell">
-          <header className="w-full">
-            <div className="content-column">
+          <header className="w-full" style={{ backgroundColor: "var(--color-tropical-teal)" }}>
+            <div className="content-column py-4">
               <Navbar />
             </div>
           </header>
 
-          <main className="app-main">
-            <div className="content-column">{children}</div>
+          <main className="app-main py-4">
+            <div className="content-column ">{children}</div>
           </main>
 
-          <footer className="w-full">
-            <div className="content-column">
+          <footer className="w-full " style={{ backgroundColor: "var(--color-tropical-teal)" }}>
+            <div className="">
               <Footer />
             </div>
           </footer>

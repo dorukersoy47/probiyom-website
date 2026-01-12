@@ -10,35 +10,35 @@ const NAV_ITEMS = [
 
 export default function Navbar() {
   return (
-    <header className="border-b border-black/10 bg-[var(--color-background)]">
-      <nav
-        aria-label="Main navigation"
-        className="flex items-center justify-between py-4"
+    <nav
+      aria-label="Main navigation"
+      className="flex items-center justify-between"
+    >
+      <Link
+        href="/"
+        aria-label="Probiyom home"
+        className="flex items-center gap-3 text-[var(--color-background)]"
       >
-        <Link
-          href="/"
-          aria-label="Probiyom home"
-          className="flex items-center gap-3 text-[var(--color-baltic-blue)]"
-        >
-          <Image src="/logo.svg" alt="Probiyom logo" width={32} height={32} />
-          <span className="text-sm font-semibold tracking-tight">
-            Probiyom
-          </span>
-        </Link>
+        <Image src="/logo.svg" alt="Probiyom logo" width={32} height={32} />
 
-        <ul className="flex items-center gap-10">
-          {NAV_ITEMS.map((item) => (
-            <li key={item.href}>
-              <Link
-                href={item.href}
-                className="text-sm font-medium text-[var(--color-text)] transition-opacity hover:opacity-70"
-              >
-                {item.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
+        {/* Brand name */}
+        <span className="text-base font-semibold tracking-tight">
+          Probiyom
+        </span>
+      </Link>
+
+      <ul className="flex items-center gap-10">
+        {NAV_ITEMS.map((item) => (
+          <li key={item.href}>
+            <Link
+              href={item.href}
+              className="text-base font-medium text-[var(--color-text)] transition-opacity hover:opacity-70"
+            >
+              {item.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 }

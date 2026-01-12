@@ -1,20 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --color-baltic-blue: #22577A;
-  --color-tropical-teal: #38A3A5;
-  --color-mint-leaf: #57CC99;
-  --color-light-green: #80ED99;
-  --color-tea-green: #C7F9CC;
+  --color-baltic-blue: #22577a;
+  --color-tropical-teal: #38a3a5;
+  --color-mint-leaf: #57cc99;
+  --color-light-green: #80ed99;
+  --color-tea-green: #c7f9cc;
 
   --color-background: #ffffff;
   --color-text: #0f172a;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -23,6 +23,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+/* Layout helpers */
 .app-shell {
   min-height: 100vh;
   display: flex;
@@ -39,4 +40,37 @@ body {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Typography */
+@layer base {
+  h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+  }
 }

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="py-6">
+    <div className="text-sm text-[var(--color-text)] opacity-80">
       <small>© {new Date().getFullYear()} Probiyom</small>
-    </footer>
+    </div>
   );
 }
