@@ -18,10 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="app-shell">
-          <header
-            className="w-full"
-            style={{ backgroundColor: "var(--color-tropical-teal)" }}
-          >
+          <header className="w-full bg-gradient-to-r from-[var(--color-baltic-blue)] via-[var(--color-tropical-teal)] to-[var(--color-mint-leaf)]">
             <div className="content-column py-4">
               <Navbar />
             </div>
@@ -31,10 +28,7 @@ export default function RootLayout({
             <div className="content-column ">{children}</div>
           </main>
 
-          <footer
-            className="w-full "
-            style={{ backgroundColor: "var(--color-tropical-teal)" }}
-          >
+          <footer className="w-full bg-gradient-to-r from-[var(--color-baltic-blue)] via-[var(--color-tropical-teal)] to-[var(--color-mint-leaf)]">
             <div className="">
               <Footer />
             </div>

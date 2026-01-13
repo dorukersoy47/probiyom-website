@@ -34,7 +34,7 @@ export default function Navbar() {
               href={item.href}
               className="text-base font-medium text-[var(--color-text)] transition-opacity hover:opacity-70"
             >
-              {item.label}
+              <b>{item.label}</b>
             </Link>
           </li>
         ))}
