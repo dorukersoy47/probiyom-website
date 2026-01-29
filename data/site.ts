@@ -1,4 +1,4 @@
-interface SiteInfo {
+export  type SiteInfo = {
     address : string;
     phone : string;
     email : string;
