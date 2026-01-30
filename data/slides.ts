@@ -1,9 +1,10 @@
-import { ProductGroup } from "./products";
+import { ProductGroup, ProductGroupLabels } from "./products";
 
 type Slide = {
     src: string;
     alt: string;
     title?: string;
+    link?: string;
 };
 
 export const durationMs: number = 5000;
@@ -14,48 +15,44 @@ export const homeSlides: Slide[] = [
         src: "/homepage_sliders/slider_1.png",
         alt: "Probiyom mikrop bilgileri",
         title: "Mikroplarla Başetmek "
-    },
-    {
-        src: "/placeholder.png",
-        alt: "placeholder",
-        title: "Placeholder"
-    },
-    {
-        src: "/placeholder.png",
-        alt: "placeholder",
-        title: "Placeholder"
     }
 ];
 
 export const productSlides: Slide[] = [
     {
-        src: "/products_sliders/slider_1.png",
-        alt: ProductGroup.ProfessionalCleaning,
-        title: ProductGroup.ProfessionalCleaning,
+        src: "/products_sliders/professional_cleaning.png",
+        alt: ProductGroupLabels[ProductGroup.ProfessionalCleaning],
+        title: ProductGroupLabels[ProductGroup.ProfessionalCleaning],
+        link: "/products/professional_cleaning",
     },
     {
-        src: "/products_sliders/slider_2.png",
-        alt: ProductGroup.HomeCleaning,
-        title: ProductGroup.HomeCleaning,
+        src: "/products_sliders/home_cleaning.png",
+        alt: ProductGroupLabels[ProductGroup.HomeCleaning],
+        title: ProductGroupLabels[ProductGroup.HomeCleaning],
+        link: "/products/home_cleaning",
     },
     {
-        src: "/products_sliders/slider_3.png",
-        alt: ProductGroup.PersonalCare,
-        title: ProductGroup.PersonalCare,
+        src: "/products_sliders/personal_care.png",
+        alt: ProductGroupLabels[ProductGroup.PersonalCare],
+        title: ProductGroupLabels[ProductGroup.PersonalCare],
+        link: "/products/personal_care",
     },
     {
-        src: "/products_sliders/slider_4.png",
-        alt: ProductGroup.ColdMistSpraying,
-        title: ProductGroup.ColdMistSpraying,
+        src: "/products_sliders/cold_mist_spraying.png",
+        alt: ProductGroupLabels[ProductGroup.ColdMistSpraying],
+        title: ProductGroupLabels[ProductGroup.ColdMistSpraying],
+        link: "/products/cold_mist_spraying",
     },
     {
-        src: "/products_sliders/slider_5.png",
-        alt: ProductGroup.IndustrialWaterTreatment,
-        title: ProductGroup.IndustrialWaterTreatment,
+        src: "/products_sliders/industrial_water_treatment.png",
+        alt: ProductGroupLabels[ProductGroup.IndustrialWaterTreatment],
+        title: ProductGroupLabels[ProductGroup.IndustrialWaterTreatment],
+        link: "/products/industrial_water_treatment",
     },
     {
-        src: "/products_sliders/slider_6.png",
-        alt: ProductGroup.PetAndLivestock,
-        title: ProductGroup.PetAndLivestock,
+        src: "/products_sliders/pet_and_livestock.png",
+        alt: ProductGroupLabels[ProductGroup.PetAndLivestock],
+        title: ProductGroupLabels[ProductGroup.PetAndLivestock],
+        link: "/products/pet_and_livestock",
     },
 ];
