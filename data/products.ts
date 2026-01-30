@@ -89,7 +89,7 @@ export const products: Product[] = [
         description: "Probiyotik bazlı bir yer temizleyicisidir. Ürünün etkinliği, yüzeyel aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal[1] hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar. Sağlıklı bir mikrobiyom[2] oluşturarak, kötü kokuları, alerjenleri ve enfeksiyon riskini azaltır.",
         imageDir: "products/placeholder.png",
         imageName: "placeholder",
-        isAvailable: true,
+        isAvailable: false,
         bullets: ["Yüksek etkili temizlik gücü.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Kötü koku oluşma riskini azaltır.", "Sağlıklı bir mikrofloranın oluşumunu destekler.", "İz ve leke bırakmadan temizlik sağlar.", "Nötr pH"]
     },
 ];

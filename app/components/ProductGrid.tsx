@@ -31,7 +31,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
                                     : "bg-black/5 text-black/60"
                             }`}
                         >
-                            {product.isAvailable ? "Available" : "Coming soon"}
+                            {product.isAvailable ? "Mevcut" : "Yakında"}
                         </span>
                     </div>
 
