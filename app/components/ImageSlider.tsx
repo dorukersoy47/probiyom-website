@@ -2,12 +2,14 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export type ImageSlide = {
     src: string;
     alt: string;
     title?: string;
+    link?: string;
 };
 
 type ImageSliderProps = {
@@ -39,27 +41,42 @@ export default function ImageSlider(props: ImageSliderProps) {
 
     const activeSlide = slides[activeIndex];
 
+    const Content = (
+        <>
+            <div className={`relative w-full ${aspectClassName}`}>
+                <Image
+                    src={activeSlide.src}
+                    alt={activeSlide.alt}
+                    fill
+                    priority={activeIndex === 0}
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 1200px"
+                />
+            </div>
+
+            {activeSlide.title ? (
+                <div className="px-4 py-3">
+                    <p className="font-semibold text-[var(--color-baltic-blue)]">
+                        {activeSlide.title}
+                    </p>
+                </div>
+            ) : null}
+        </>
+    );
+
     return (
         <div className="w-full">
             <div className="w-full overflow-hidden rounded-2xl border border-black/10">
-                <div className={`relative w-full ${aspectClassName}`}>
-                    <Image
-                        src={activeSlide.src}
-                        alt={activeSlide.alt}
-                        fill
-                        priority
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 1200px"
-                    />
-                </div>
-
-                {activeSlide.title ? (
-                    <div className="px-4 py-3">
-                        <p className="font-semibold text-[var(--color-baltic-blue)]">
-                            {activeSlide.title}
-                        </p>
-                    </div>
-                ) : null}
+                {activeSlide.link ? (
+                    <Link
+                        href={activeSlide.link}
+                        className="block cursor-pointer hover:opacity-95 transition"
+                    >
+                        {Content}
+                    </Link>
+                ) : (
+                    Content
+                )}
             </div>
 
             <div className="mt-3 flex items-center gap-2">

@@ -11,7 +11,7 @@ export default function ProductsPage() {
 
                 <div className="flex flex-col gap-4 max-w-5xl">
                     <p>
-                        Ürünlerimiz, HeiQ Chrisal tarafından geliştirilen; probiyotikler (faydalı bakteriler)
+                        Ürünlerimiz, <b>HeiQ Chrisal</b> tarafından geliştirilen; probiyotikler (faydalı bakteriler)
                         ile prebiyotiklerin (faydalı besinler) patentli ve benzersiz bir birleşimidir.
                         Yüzde yüz doğal içeriklerle formüle edilen bu ileri teknoloji, faydalı
                         mikroorganizmaların etkinliğini artırarak insanların, yaşam alanlarının ve çevrenin
@@ -28,10 +28,7 @@ export default function ProductsPage() {
                         doğayla uyumlu bir gelecek için tasarlanmıştır.
                     </p>
 
-                    <p>
-                        Ürünlerimiz 6 ana grupta sunulmaktadır. Her grup içinde kendine özel ürünlerimiz
-                        mevcuttur. Grup detayları için lütfen grup ikonuna tıklayınız.
-                    </p>
+                    
                 </div>
             </header>
 
@@ -40,6 +37,11 @@ export default function ProductsPage() {
                 durationMs={durationMs}
                 aspectClassName={aspect}
             />
+
+            <p>
+                Ürünlerimiz <b>6 ana grupta</b> sunulmaktadır. Her grup içinde kendine özel ürünlerimiz
+                mevcuttur. Grup detayları için lütfen <b>grup ikonuna tıklayınız</b>.
+            </p>
         </section>
     );
 }
