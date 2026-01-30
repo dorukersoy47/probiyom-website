@@ -8,7 +8,7 @@ export const durationMs: number = 5000;
 
 export const homeSlides: Slide[] = [
   {
-    src: "/homepage_slider_1.png",
+    src: "/homepage_sliders/slider_1.png",
     alt: "Probiyom mikrop bilgileri",
     title: "Mikroplarla Başetmek "
   },
