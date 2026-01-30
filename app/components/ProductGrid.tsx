@@ -5,6 +5,12 @@ type ProductGridProps = {
     products: Product[];
 };
 
+function toPublicSrc(path: string) {
+    if (!path) return "";
+    if (path.startsWith("/")) return path;
+    return `/${path}`;
+}
+
 export default function ProductGrid({ products }: ProductGridProps) {
     return (
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -33,15 +39,26 @@ export default function ProductGrid({ products }: ProductGridProps) {
                         {product.description}
                     </p>
 
-                    <div className="mt-4 overflow-hidden rounded-lg border border-black/10 bg-black/5">
-                        <Image
-                            src={`/${product.imageName}`}
-                            alt={product.name}
-                            width={800}
-                            height={500}
-                            className="h-40 w-full object-cover"
-                        />
-                    </div>
+                    {product.bullets && product.bullets.length > 0 ? (
+                        <ul className="mt-3 list-disc pl-5 text-sm text-black/70 flex flex-col gap-1">
+                            {product.bullets.map((b) => (
+                                <li key={b}>{b}</li>
+                            ))}
+                        </ul>
+                    ) : null}
+
+                    {product.imageDir ? (
+                        <div className="mt-4 overflow-hidden rounded-lg border border-black/10 bg-black/5">
+                            <Image
+                                src={toPublicSrc(product.imageDir)}
+                                alt={product.name}
+                                width={800}
+                                height={500}
+                                className="h-40 w-full object-cover"
+                                priority={false}
+                            />
+                        </div>
+                    ) : null}
                 </article>
             ))}
         </div>
