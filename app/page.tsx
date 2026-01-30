@@ -1,9 +1,10 @@
-import HomeSlider from "./components/HomeSlider";
+// app/page.tsx
+import ImageSlider from "./components/ImageSlider";
+import { homeSlides, durationMs, aspect } from "../data/slides";
 
 export default function HomePage() {
     return (
         <main className="flex flex-col gap-10 py-6">
-            {/* Hero */}
             <section>
                 <div className="flex flex-col gap-5">
                     <h1 className="text-[var(--color-baltic-blue)]">Probiyom</h1>
@@ -12,12 +13,16 @@ export default function HomePage() {
                         destekleyen, uzun süreli ve sürdürülebilir hijyen çözümleri.
                     </p>
                 </div>
+
                 <div className="mt-8">
-                    <HomeSlider />
+                    <ImageSlider
+                        slides={homeSlides}
+                        durationMs={durationMs}
+                        aspectClassName={aspect}
+                    />
                 </div>
             </section>
 
-            {/* Content */}
             <section>
                 <div className="flex flex-col gap-5">
                     <h2 className="text-[var(--color-baltic-blue)]">
