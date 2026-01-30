@@ -1,9 +1,9 @@
+// app/contact/page.tsx
 "use client";
 
-import { useMemo, useState } from "react";
-import { siteInfo } from "../../data/site";
-import { ProductGroup } from "../../data/products"
 import ContactMap from "../components/ContactMap";
+import ContactUsSection from "../components/ContactUsSection";
+import { siteInfo } from "../../data/site";
 
 export default function ContactPage() {
     return (
@@ -17,9 +17,7 @@ export default function ContactPage() {
 
             <section className="grid gap-6 md:grid-cols-2">
                 <div className="rounded-2xl border border-black/10 bg-white p-4 md:p-6">
-                    <h2 className="text-[var(--color-baltic-blue)]">İletişim Bilgileri</h2>
-
-                    <div className="mt-4 flex flex-col gap-4">
+                    <div className="flex flex-col gap-4">
                         <div>
                             <p className="text-sm font-semibold text-black/70">Adres</p>
                             <p className="mt-1">
@@ -51,10 +49,10 @@ export default function ContactPage() {
                     </div>
                 </div>
 
-                <div className="rounded-2xl border border-black/10 bg-white p-2 md:p-3">
-                    <ContactMap lon={29.068512} lat={40.992680} zoom={15} />
-                </div>
+                <ContactMap lon={siteInfo.lon} lat={siteInfo.lat} zoom={15} />
             </section>
+
+            <ContactUsSection />
         </section>
     );
 }
