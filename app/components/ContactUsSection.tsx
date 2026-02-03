@@ -166,7 +166,7 @@ export default function ContactUsSection() {
                         </span>
                         <select
                             value={form.productGroup}
-                            onChange={(e) => updateField("productGroup", e.target.value as ProductGroup)}
+                            onChange={(e) => updateField("productGroup", e.target.value ? Number(e.target.value) as ProductGroup : "")}
                             className="rounded-xl border border-black/10 bg-white px-4 py-3 outline-none focus:border-black/25"
                             required
                         >
