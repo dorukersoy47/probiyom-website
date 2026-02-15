@@ -121,7 +121,7 @@ function Navbar(container) {
     container.innerHTML =
       '<nav class="navbar" aria-label="Main navigation">' +
         '<a href="#home" class="navbar-brand" aria-label="Probiyom ana sayfa">' +
-          '<img src="logo.svg" alt="Probiyom logo">' +
+          '<img src="images/logo.svg" alt="Probiyom logo">' +
           '<span>Probiyom</span>' +
         '</a>' +
 
