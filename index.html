@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probiyom</title>
+
+    <!-- Google Fonts – Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- OpenLayers (for contact page map) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@10.5.0/ol.css">
+    <script src="https://cdn.jsdelivr.net/npm/ol@10.5.0/dist/ol.js"></script>
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="app-shell">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="content-column" id="navbar-container"></div>
+        </header>
+
+        <!-- Main content (pages load here) -->
+        <main class="app-main">
+            <div class="content-column" id="page-content"></div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <div id="footer-container"></div>
+        </footer>
+    </div>
+
+    <!-- Data (order matters: products must load before slides) -->
+    <script src="data/site.js"></script>
+    <script src="data/products.js"></script>
+    <script src="data/slides.js"></script>
+    <script src="data/subjects.js"></script>
+
+    <!-- App scripts -->
+    <script src="scripts/components.js"></script>
+    <script src="scripts/router.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
