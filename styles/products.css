@@ -1,0 +1,124 @@
+/* ===== Product Cards ===== */
+.product-card {
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 1.25rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  outline: 2px solid rgba(87, 204, 153, 0.3);
+  outline-offset: -2px;
+}
+
+.product-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.product-card-header h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.product-badge {
+  flex-shrink: 0;
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.product-badge.available {
+  background: var(--color-tea-green);
+  color: var(--color-baltic-blue);
+}
+
+.product-badge.upcoming {
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.product-card p {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.product-card ul {
+  margin-top: 0.75rem;
+  list-style: disc;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.product-card li {
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.product-card-image {
+  margin-top: 1rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.product-card-image img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+
+/* ===== Product Group Intro ===== */
+.group-intro-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.group-intro-text .heading {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.group-intro-text ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.group-intro-text li {
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+}
+
+.group-intro-image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.group-intro-image-inner {
+  position: relative;
+  width: 100%;
+  padding-top: 62.5%; /* 16/10 */
+}
+
+.group-intro-image-inner img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
