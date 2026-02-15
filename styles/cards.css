@@ -1,0 +1,52 @@
+/* ===== Cards ===== */
+.card {
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 1.5rem;
+}
+
+.card-lg {
+  padding: 1.5rem;
+}
+
+.card ul {
+  margin-top: 1rem;
+  display: flex;
+  list-style: disc;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-left: 1.25rem;
+}
+
+.card li {
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+}
+
+/* ===== Info Boxes ===== */
+.info-box {
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 1.25rem;
+}
+
+.info-box p {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.info-box .label {
+  font-weight: 600;
+  color: var(--color-baltic-blue);
+}
+
+/* ===== Empty State ===== */
+.empty-state {
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+}
