@@ -4,7 +4,8 @@ var ProductGroup = {
   PersonalCare: 3,
   ColdMistSpraying: 4,
   IndustrialWaterTreatment: 5,
-  PetAndLivestock: 6,
+  Pet: 6,
+  Livestock: 7,
 };
 
 var ProductGroupLabels = {};
@@ -13,7 +14,8 @@ ProductGroupLabels[ProductGroup.HomeCleaning] = "Ev Temizlik Ürünleri";
 ProductGroupLabels[ProductGroup.PersonalCare] = "Kişisel Bakım Ürünleri";
 ProductGroupLabels[ProductGroup.ColdMistSpraying] = "Soğuk Sis ve Püskürtme Ürünleri";
 ProductGroupLabels[ProductGroup.IndustrialWaterTreatment] = "Endüstriyel Su Arıtma Ürünleri";
-ProductGroupLabels[ProductGroup.PetAndLivestock] = "PET ve Hayvancılık Ürünleri";
+ProductGroupLabels[ProductGroup.Pet] = "PET Ürünleri";
+ProductGroupLabels[ProductGroup.Livestock] = "Hayvancılık Ürünleri";
 
 var GroupSlugToEnum = {
   professional_cleaning: ProductGroup.ProfessionalCleaning,
@@ -21,10 +23,12 @@ var GroupSlugToEnum = {
   personal_care: ProductGroup.PersonalCare,
   cold_mist_spraying: ProductGroup.ColdMistSpraying,
   industrial_water_treatment: ProductGroup.IndustrialWaterTreatment,
-  pet_and_livestock: ProductGroup.PetAndLivestock,
+  pet: ProductGroup.Pet,
+  livestock: ProductGroup.Livestock,
 };
 
 var ProductGroupIntroText = {};
+
 ProductGroupIntroText[ProductGroup.ProfessionalCleaning] = {
   heading: "Geleneksel kimyasal temizlik ürünleri ve dezenfektanlar yüzeyleri ilk bakışta temizlese de;",
   bullets: [
@@ -35,56 +39,78 @@ ProductGroupIntroText[ProductGroup.ProfessionalCleaning] = {
   ],
   paragraph: "Bu nedenlerle, geleneksel temizlik yaklaşımları kalıcı hijyen ve doğal denge açısından yetersiz kalmaktadır.",
   warning: "Ürünlerimiz temizlik maddesidir ve biyosidal ürün olarak kullanılamaz.",
-  imageDir: "images/professional_cleaning.png",
+  imageDir: "images/products_pages/pp_1.png",
   imageName: "Professional Cleaning Products",
 };
 
+ProductGroupIntroText[ProductGroup.HomeCleaning] = {
+  heading: "",
+  bullets: [],
+  paragraph: "",
+  warning: "",
+  imageDir: "images/products_pages/pp_2.png",
+  imageName: "Home Cleaning Products",
+};
+
 var products = [
-  {
-    id: "GR0101XX",
-    group: ProductGroup.ProfessionalCleaning,
-    name: "HeiQ VivoTech İç Mekan (Interior)",
-    description: "Probiyotik bazlı, çok amaçlı bir iç mekân temizleyicisidir. Ürünün etkinliği, yüzeyel aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal [1] hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar. Sağlıklı bir mikrobiyom [2] oluşturarak, kötü kokuları, alerjenleri ve enfeksiyon riskini azaltı.",
-    imageDir: "images/products/placeholder.png",
-    imageName: "products/placeholder",
-    isAvailable: true,
-    bullets: [
-      "Yüksek performanslı temizlik.",
-      "Tüm yıkanabilir yüzeyler için güvenlidir.",
-      "Kötü koku oluşma riskini azaltır.",
-      "Sağlıklı bir mikroflorayı destekler.",
-    ],
-  },
-  {
-    id: "GR0102XX",
-    group: ProductGroup.ProfessionalCleaning,
-    name: "HeiQ VivoTech Yağ Çözücü (Degreaser) Pro",
-    description: "Probiyotiklerle zenginleştirilmiş, süper konsantre, çok amaçlı bir temizleyicidir. Her türlü yüzeydeki tüm organik kirlerin temizlenmesi için uygundur. Ürünün etkisi; yüzeyel aktif maddeler ile uzun süre boyunca enzim üreten probiyotiklerin birleşimine dayanır. Bu enzimler organik kirleri parçalayarak kirin yüzeyden ayrılmasını sağlar.  Çözünmüş veya kolloidal bir yapıya dönüşen Aktif Maddeler kirin mekanik ve/veya fiziksel yöntemlerle uzaklaştırılması ve temizlenmesini kolaylaştırır.",
-    imageDir: "images/products/placeholder.png",
-    imageName: "placeholder",
-    isAvailable: true,
-    bullets: [
-      "Çok güçlü temizleme etkisi yaratır",
-      "Tüm yıkanabilir yüzeylerde güvenle kullanılabilir.",
-      "Kötü koku oluşma riskini azaltır.",
-      "Sağlıklı bir mikrofloranın oluşumunu destekler.",
-    ],
-  },
-  {
-    id: "GR0103XX",
-    group: ProductGroup.ProfessionalCleaning,
-    name: "HeiQ VivoTech Yüzey (Floor)",
-    description: "Probiyotik bazlı bir yer temizleyicisidir. Ürünün etkinliği, yüzeyel aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal[1] hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar. Sağlıklı bir mikrobiyom[2] oluşturarak, kötü kokuları, alerjenleri ve enfeksiyon riskini azaltır.",
-    imageDir: "images/products/placeholder.png",
-    imageName: "placeholder",
-    isAvailable: false,
-    bullets: [
-      "Yüksek etkili temizlik gücü.",
-      "Tüm yıkanabilir yüzeyler için güvenlidir.",
-      "Kötü koku oluşma riskini azaltır.",
-      "Sağlıklı bir mikrofloranın oluşumunu destekler.",
-      "İz ve leke bırakmadan temizlik sağlar.",
-      "Nötr pH",
-    ],
-  },
+    {
+        id: "GR0101XX",
+        group: ProductGroup.ProfessionalCleaning,
+        name: "HeiQ VivoTech İç Mekan (Interior)",
+        description: "Probiyotik bazlı, çok amaçlı bir iç mekân temizleyicisidir. Ürünün etkinliği, yüzeyel aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal [1] hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar. Sağlıklı bir mikrobiyom [2] oluşturarak, kötü kokuları, alerjenleri ve enfeksiyon riskini azaltı.",
+        imageDir: "images/products/p_101.jpg",
+        imageName: "Product 101",
+        isAvailable: true,
+        bullets: ["Yüksek performanslı temizlik.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Kötü koku oluşma riskini azaltır.", "Sağlıklı bir mikroflorayı destekler."]
+    },
+    {
+        id: "GR0102XX",
+        group: ProductGroup.ProfessionalCleaning,
+        name: "HeiQ VivoTech Yağ Çözücü (Degreaser) Pro",
+        description: "Probiyotiklerle zenginleştirilmiş, süper konsantre, çok amaçlı bir temizleyicidir. Her türlü yüzeydeki tüm organik kirlerin temizlenmesi için uygundur. Ürünün etkisi; yüzeyel aktif maddeler ile uzun süre boyunca enzim üreten probiyotiklerin birleşimine dayanır. Bu enzimler organik kirleri parçalayarak kirin yüzeyden ayrılmasını sağlar.  Çözünmüş veya kolloidal bir yapıya dönüşen Aktif Maddeler kirin mekanik ve/veya fiziksel yöntemlerle uzaklaştırılması ve temizlenmesini kolaylaştırır.",
+        imageDir: "images/products/p_102.jpg",
+        imageName: "Product 102",
+        isAvailable: true,
+        bullets: ["Çok güçlü temizleme etkisi yaratır", "Tüm yıkanabilir yüzeylerde güvenle kullanılabilir.", "Kötü koku oluşma riskini azaltır.", "Sağlıklı bir mikrofloranın oluşumunu destekler."]
+    },
+    {
+        id: "GR0103XX",
+        group: ProductGroup.ProfessionalCleaning,
+        name: "HeiQ VivoTech Yüzey (Floor)",
+        description: "Probiyotik bazlı bir yer temizleyicisidir. Ürünün etkinliği, yüzeyel aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal[1] hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar. Sağlıklı bir mikrobiyom[2] oluşturarak, kötü kokuları, alerjenleri ve enfeksiyon riskini azaltır.",
+        imageDir: "images/products/p_103.jpg",
+        imageName: "Product 103",
+        isAvailable: true,
+        bullets: ["Yüksek etkili temizlik gücü.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Kötü koku oluşma riskini azaltır.", "Sağlıklı bir mikrofloranın oluşumunu destekler.", "İz ve leke bırakmadan temizlik sağlar.", "Nötr pH"]
+    },
+    {
+        id: "GR0104XX",
+        group: ProductGroup.ProfessionalCleaning,
+        name: "HeiQ VivoTech Yüzey Makina (Scrub) Ecolabel",
+        description: "HeiQ VivoTech Yüzey Makina (Scrub) Ecolabel, tüm zemin yıkama makinelerinde kullanılabilen, probiyotik bazlı bir yer temizleyicidir. Ürünün etkinliği, yüzeyel aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal  hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar. Sağlıklı bir mikrobiyom  oluşturarak, kötü kokuları, alerjenleri ve enfeksiyon riskini azaltır.",
+        imageDir: "images/products/p_104.jpg",
+        imageName: "Product 104",
+        isAvailable: true,
+        bullets: ["Yüksek etkili temizlik gücü.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Kötü koku oluşma riskini azaltır.", "Sağlıklı bir mikrofloranın oluşumunu destekler.", "İz ve leke bırakmadan temizlik sağlar.", "Nötr pH"]
+    },
+    {
+        id: "GR0105XX",
+        group: ProductGroup.ProfessionalCleaning,
+        name: "HeiQ VivoTech Yağ Tutucu (Grease Trap)",
+        description: "HeiQ VivoTech Yağ Tutucu (Grease Trap), yağ tutucularda kullanılmak üzere geliştirilmiş, stabilize edilmiş bakteriyel sporların yüksek konsantrasyonlu bir karışımıdır. Her türlü yüzeydeki tüm organik kirlerin temizlenmesi için uygundur. Ürünün etkisi; yüzey aktif maddeler ile uzun süre boyunca enzim üreten probiyotiklerin birleşimine dayanır. Bu enzimler organik kirleri parçalayarak kirin yüzeyden ayrılmasını sağlar. Çözünmüş veya kolloidal  bir yapıya dönüşen Aktif Maddeler kirin mekanik ve/veya fiziksel yöntemlerle uzaklaştırılması ve temizlenmesini kolaylaştırır.",
+        imageDir: "images/products/p_105.jpg",
+        imageName: "Product 105",
+        isAvailable: true,
+        bullets: ["Koku problemlerini kontrol altına alır.", "Gider ve Boru hatlarının tıkanmasını önlemeye yardımcı olur.", "Kötü koku oluşma riskini azaltır", "Yağ tutucularda mikrobiyal aktiviteyi destekler", "Yağ tutucu boşaltma veya temizleme sıklığını azaltarak maliyet tasarrufu sağlar"]
+    },
+    {
+        id: "GR0106XX",
+        group: ProductGroup.ProfessionalCleaning,
+        name: "HeiQ VivoTech Köpük Ekstra (Foam Extra)",
+        description: "HeiQ VivoTech Köpük Ekstra (Foam Extra) etkisi Yüksek bir probiyotik temizlik ürünüdür. Ürünün etkinliği, yüzeyel aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal  hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar.",
+        imageDir: "images/products/p_106.jpg",
+        imageName: "Product 160",
+        isAvailable: true,
+        bullets: ["Genellikle fırçalama veya ovma gerektirmeden, hızlı ve etkili temizlik sağlar.", "Bulunduğu ortamda sağlıklı ve dengeli bir mikroflora oluşumunu destekler.", "Kalıcı Probiyotik etkisi sayesinde, çoğu durumda dezenfeksiyon ihtiyacını ortadan kaldırır.", "Zamandan tasarruf sağlayan, ekonomik bir kullanım sunar.", "Kalıcı etkisi sayesinde atık su üzerinde olumlu bir etki yaratır."] 
+    },
 ];
