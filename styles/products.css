@@ -63,6 +63,8 @@
 
 .product-card-image {
   margin-top: 1rem;
+  width: 10rem;
+  height: 10rem;
   overflow: hidden;
   border-radius: 0.5rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -71,8 +73,8 @@
 
 .product-card-image img {
   width: 100%;
-  height: 10rem;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* ===== Product Group Intro ===== */

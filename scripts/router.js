@@ -33,7 +33,7 @@ var Router = (function () {
         loadPage('pages/home.html', initHomePage);
         break;
       case 'about':
-        loadPage('pages/about.html');
+        loadPage('pages/about.html', initAboutPage);
         break;
       case 'products':
         if (parts.length > 1 && parts[1]) {
@@ -150,6 +150,33 @@ var Router = (function () {
     var productsEl = document.getElementById('group-products');
     if (productsEl) {
       ProductGrid(productsEl, groupProducts);
+    }
+  }
+
+  function initAboutPage() {
+    var addressEl = document.getElementById('about-address');
+    if (addressEl) {
+      addressEl.innerHTML = SiteData.address1 + '<br>' + SiteData.address2;
+    }
+
+    var phoneEl = document.getElementById('about-phone');
+    if (phoneEl) {
+      phoneEl.href = 'tel:' + SiteData.phone;
+      phoneEl.textContent = SiteData.phone;
+    }
+
+    var emailEl = document.getElementById('about-email');
+    if (emailEl) {
+      emailEl.href = 'mailto:' + SiteData.email;
+      emailEl.textContent = SiteData.email;
+    }
+
+    var socialEl = document.getElementById('about-social');
+    if (socialEl) {
+      socialEl.innerHTML =
+        '<a href="' + SiteData.instagram + '" target="_blank" rel="noopener">Instagram</a>' +
+        ' &middot; ' +
+        '<a href="' + SiteData.x + '" target="_blank" rel="noopener">Twitter / X</a>';
     }
   }
 
