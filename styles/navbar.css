@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 .navbar-brand {
@@ -15,9 +15,10 @@
 }
 
 .navbar-brand img {
-  width: 32px;
-  height: 32px;
-  filter: brightness(0) invert(1);
+  height: 50px;
+  width: auto;
+  padding: 4px;
+  border-radius: 4px;
 }
 
 .navbar-brand span {

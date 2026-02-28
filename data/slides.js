@@ -4,37 +4,37 @@ var homeSlides = [
   {
     src: "images/homepage_sliders/hp_1.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
   {
     src: "images/homepage_sliders/hp_2.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
   {
     src: "images/homepage_sliders/hp_3.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
   {
     src: "images/homepage_sliders/hp_4.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
   {
     src: "images/homepage_sliders/hp_5.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
   {
     src: "images/homepage_sliders/hp_6.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
   {
     src: "images/homepage_sliders/hp_7.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
 ];
 

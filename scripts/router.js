@@ -78,10 +78,20 @@ var Router = (function () {
   /* ---- Page initializers ---- */
 
   function initHomePage() {
-    var sliderEl = document.getElementById('home-slider');
-    if (sliderEl) {
-      currentSlider = ImageSlider(sliderEl, homeSlides, SLIDER_DURATION_MS);
+    var sliders = [];
+    var homeSliderEl = document.getElementById('home-slider');
+    if (homeSliderEl) {
+      sliders.push(ImageSlider(homeSliderEl, homeSlides, SLIDER_DURATION_MS));
     }
+    var productsSliderEl = document.getElementById('products-slider');
+    if (productsSliderEl) {
+      sliders.push(ImageSlider(productsSliderEl, productSlides, SLIDER_DURATION_MS));
+    }
+    currentSlider = {
+      destroy: function () {
+        sliders.forEach(function (s) { if (s && s.destroy) s.destroy(); });
+      }
+    };
   }
 
   function initProductsPage() {
