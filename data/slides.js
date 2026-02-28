@@ -77,14 +77,14 @@ var productSlides = [
   },
   {
     src: "images/products_sliders/ps_7.jpg",
-    alt: ProductGroupLabels[ProductGroup.Pet],
-    title: ProductGroupLabels[ProductGroup.Pet],
-    link: "#products/pet",
-  },
-  {
-    src: "images/products_sliders/ps_8.jpg",
     alt: ProductGroupLabels[ProductGroup.Livestock],
     title: ProductGroupLabels[ProductGroup.Livestock],
     link: "#products/livestock",
   },
+  {
+    src: "images/products_sliders/ps_8.jpg",
+    alt: ProductGroupLabels[ProductGroup.Pet],
+    title: ProductGroupLabels[ProductGroup.Pet],
+    link: "#products/pet",
+  }
 ];
