@@ -126,7 +126,7 @@ var products = [
         {
         id: "GR0108XX",
         group: ProductGroup.ProfessionalCleaning,
-        name: "HeiQ VivoTech uvalet Jeli (ToiletGel)",
+        name: "HeiQ VivoTech Tuvalet Jeli (ToiletGel)",
         description: "HeiQ VivoTech Tuvalet Jeli (ToiletGel), günlük kullanım için geliştirilmiş bir probiyotik tuvalet temizleyicisidir. Ürünün etkisi; yüzeyel aktif maddeler ile uzun süre boyunca enzim üreten probiyotiklerin birleşimine dayanır. Bu enzimler organik kirleri parçalayarak kirin yüzeyden ayrılmasını sağlar. Çözünmüş veya kolloidal  bir yapıya dönüşen Aktif Maddeler kirin mekanik ve/veya fiziksel yöntemlerle uzaklaştırılması ve temizlenmesini kolaylaştırır. HeiQ VivoTech Tuvalet Jeli (Toilet Gel), içerdiği probiyotiklerin gider boruları ve fosseptik de çalışmaya devam etmesi sayesinde kireç oluşumunu ve gider tıkanıklığı riskini azaltır.",
         imageDir: "images/products/p_107.jpg",
         imageName: "Product 108",
