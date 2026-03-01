@@ -122,7 +122,7 @@
 .group-intro-image-inner {
   position: relative;
   width: 100%;
-  padding-top: 62.5%; /* 16/10 */
+  padding-top: 50%; /* 1200x600 = 2:1 */
 }
 
 .group-intro-image-inner img {

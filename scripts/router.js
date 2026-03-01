@@ -209,6 +209,24 @@ var Router = (function () {
       emailEl.textContent = SiteData.email;
     }
 
+    var instagramEl = document.getElementById('contact-instagram');
+    if (instagramEl) {
+      instagramEl.href = SiteData.instagram;
+      instagramEl.textContent = SiteData.instagram;
+    }
+
+    var xEl = document.getElementById('contact-x');
+    if (xEl) {
+      xEl.href = SiteData.x;
+      xEl.textContent = SiteData.x;
+    }
+
+    var linkedinEl = document.getElementById('contact-linkedin');
+    if (linkedinEl) {
+      linkedinEl.href = SiteData.linkedin;
+      linkedinEl.textContent = SiteData.linkedin;
+    }
+
     /* Map */
     var mapEl = document.getElementById('contact-map');
     if (mapEl) {
