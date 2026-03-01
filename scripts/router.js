@@ -134,7 +134,7 @@ var Router = (function () {
           '<p>' + escapeHtml(groupIntro.paragraph) + '</p>';
 
         if (groupIntro.warning) {
-          introTextHtml += '<p class="heading">' + escapeHtml(groupIntro.warning) + '</p>';
+          introTextHtml += '<p class="warning">' + escapeHtml(groupIntro.warning) + '</p>';
         }
 
         introTextHtml += '</div>';

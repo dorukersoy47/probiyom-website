@@ -93,6 +93,11 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
+.group-intro-text .warning {
+  font-weight: 600;
+  color: rgba(187, 13, 13, 0.8);
+}
+
 .group-intro-text ul {
   list-style: disc;
   padding-left: 1.25rem;

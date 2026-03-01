@@ -5,6 +5,7 @@ var SiteData = {
     email: "probiyom@idolinvest.com",
     instagram: "https://www.instagram.com/probiyom/",
     x: "https://x.com/probiyom",
+    linkedin: "https://www.linkedin.com/company/probiyom",
     lat: 40.992680,
     lon: 29.068512,
 };
