@@ -1,4 +1,4 @@
-var SLIDER_DURATION_MS = 5000;
+var SLIDER_DURATION_MS = 3000;
 
 var homeSlides = [
   {
