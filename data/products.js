@@ -133,4 +133,14 @@ var products = [
         isAvailable: true,
         bullets: ["Koku oluşumunu önler ve temizlenen yüzeylerde sağlıklı bir mikroflora oluşturur", "Jel formülü sayesinde yüzeye daha uzun süre tutunur, böylece daha yüksek verimlilik sağlar", "Uzun süren, kalıcı, ferah bir koku bırakır"] 
     }
+ {
+        id: "GR0201XX",
+        group: ProductGroup.HomeCleaning,
+        name: "HeiQ VivoTech Sıvı Bulaşık Deterjanı",
+        description: "HeiQ VivoTech Sıvı Bulaşık Deterjanı, probiyotik bakteriler ile zenginleştirilmiş, yüksek konsantrasyonlu bir sıvı bulaşık deterjanıdır. Ürünün etkinliği, yüzey aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal  hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar",
+        imageDir: "images/products/p_201.jpg",
+        imageName: "Product 201",
+        isAvailable: true,
+        bullets: ["Mükemmel Yağ Çözme Gücü", "Uzun Süreli Etki", "Stabil ve yoğun etkili Köpük Yapısı", "Yüzeylerde leke veya kalıntı bırakmadan kurulama", "Probiyotiklerin sürekli etkisi sayesinde Giderlerde devam eden temizlik"] 
+    },  
 ];
