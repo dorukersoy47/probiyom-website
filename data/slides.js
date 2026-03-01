@@ -4,37 +4,37 @@ var homeSlides = [
   {
     src: "images/homepage_sliders/hp_1.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
   {
     src: "images/homepage_sliders/hp_2.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
   {
     src: "images/homepage_sliders/hp_3.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
   {
     src: "images/homepage_sliders/hp_4.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
   {
     src: "images/homepage_sliders/hp_5.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
   {
     src: "images/homepage_sliders/hp_6.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
   {
     src: "images/homepage_sliders/hp_7.jpg",
     alt: "Probiyom mikrop bilgileri",
-    title: "Mikroplarla Başetmek",
+    title: "",
   },
 ];
 
@@ -77,14 +77,14 @@ var productSlides = [
   },
   {
     src: "images/products_sliders/ps_7.jpg",
-    alt: ProductGroupLabels[ProductGroup.Pet],
-    title: ProductGroupLabels[ProductGroup.Pet],
-    link: "#products/pet",
-  },
-  {
-    src: "images/products_sliders/ps_8.jpg",
     alt: ProductGroupLabels[ProductGroup.Livestock],
     title: ProductGroupLabels[ProductGroup.Livestock],
     link: "#products/livestock",
   },
+  {
+    src: "images/products_sliders/ps_8.jpg",
+    alt: ProductGroupLabels[ProductGroup.Pet],
+    title: ProductGroupLabels[ProductGroup.Pet],
+    link: "#products/pet",
+  }
 ];

@@ -7,6 +7,8 @@
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   outline: 2px solid rgba(87, 204, 153, 0.3);
   outline-offset: -2px;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-card-header {
@@ -62,8 +64,9 @@
 }
 
 .product-card-image {
-  margin-top: 1rem;
+  margin-top: auto;
   width: 100%;
+  aspect-ratio: 8 / 7;
   overflow: hidden;
   border-radius: 0.5rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -72,7 +75,8 @@
 
 .product-card-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
