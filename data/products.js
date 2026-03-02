@@ -169,6 +169,6 @@ var products = [
         imageDir: "images/products/p_202.jpg",
         imageName: "Product 202",
         isAvailable: true,
-        bullets: ["30°C – 60°C aralığında düşük sıcaklıklarda etkilidir.", "Düşük sıcaklıklarda dahi yüksek leke çıkarma performansı sunar.", "İçerdiği probiyotik bakteriler sayesinde kötü kokuları kalıcı olarak giderir.", "Normalde düşük sıcaklıkta yıkamada kalıcı olan kokular üzerinde etkilidir.", "Ağartıcı (bleach) ve optik parlatıcı içermez."] 
+        bullets: ["30°C – 60°C aralığında düşük sıcaklıklarda etkilidir.", "Düşük sıcaklıklarda dahi yüksek leke çıkarma performansı sunar.", "İçerdiği probiyotik bakteriler sayesinde kötü kokuları kalıcı olarak giderir.", "Normalde düşük sıcaklıkta yıkamada kalıcı olan kokular üzerinde etkilidir.", "Ağartıcı (bleach) ve optik parlatıcı içermez.", ""] 
     },  
 ];
