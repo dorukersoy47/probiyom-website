@@ -132,7 +132,7 @@ var products = [
         imageName: "Product 108",
         isAvailable: true,
         bullets: ["Koku oluşumunu önler ve temizlenen yüzeylerde sağlıklı bir mikroflora oluşturur", "Jel formülü sayesinde yüzeye daha uzun süre tutunur, böylece daha yüksek verimlilik sağlar", "Uzun süren, kalıcı, ferah bir koku bırakır"] 
-    }
+    },
  {
         id: "GR0201XX",
         group: ProductGroup.HomeCleaning,
