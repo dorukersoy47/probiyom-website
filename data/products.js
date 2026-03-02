@@ -52,11 +52,24 @@ ProductGroupIntroText[ProductGroup.HomeCleaning] = {
     "Uzun süreli temizlik etkisi sağlamadığı için sık ve tekrarlayan temizlik ihtiyacı doğurur",
   ],
   paragraph: "Bu nedenlerle, geleneksel temizlik yaklaşımları kalıcı hijyen ve doğal denge açısından yetersiz kalmaktadır. ",
-  warning: "Ürünlerimiz temizlik maddesidir ve biyosidal ürün olarak kullanılama",
-  imageDir: "images/products_pages/pp_2.png",
+  warning: "",
+  imageDir: "images/products_pages/pp_.png",
   imageName: "Home Cleaning Products",
 };
 
+ProductGroupIntroText[ProductGroup.Pet] = {
+  heading: "Probiyotikler, hayvanların deri ve tüy yapısında dengeli bir mikrobiyal ortamın korunmasına ve genel iyi haline katkıda bulunur.".
+  bullets: [
+    "Dengeli bir mikrobiyom, cildin doğal koruyucu bariyerini destekler",
+    "istenmeyen kokuların kontrolüne yardımcı olur ve alerjen birikimini azaltır",
+    "Probiyotikler, mikroskobik düzeyde temizlik sağlayarak yalnızca yüzeyde değil, derinlemesine etki gösterir; tüy ve derinin temiz, sağlıklı ve ferah kalmasına destek olur",
+    
+ ],
+  paragraph: "Bu nedenlerle, geleneksel temizlik yaklaşımları kalıcı hijyen ve doğal denge açısından yetersiz kalmaktadır. ",
+  warning: "Ürünlerimiz temizlik maddesidir ve biyosidal ürün olarak kullanılamaz",
+  imageDir: "images/products_pages/pp_2.png",
+  imageName: "Home Cleaning Products",
+};
 var products = [
     {
         id: "GR0101XX",
