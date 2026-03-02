@@ -44,10 +44,15 @@ ProductGroupIntroText[ProductGroup.ProfessionalCleaning] = {
 };
 
 ProductGroupIntroText[ProductGroup.HomeCleaning] = {
-  heading: "",
-  bullets: [],
-  paragraph: "",
-  warning: "",
+  heading: "Geleneksel kimyasal temizlik ürünleri ve dezenfektanlar yüzeyleri ilk bakışta temizlese de; ",
+  bullets: [
+    "Dengeli bir mikrobiyom oluşmasını sağlamaz",
+    "Kullanım sıklığı arttıkça, dirençli bakteri oluşumunu teşvik eder",
+    "Yüzeylerdeki çiziklere nüfuz etmekte zorlanır. Organik kirlerin barındığı, kötü koku kaynağı olan yağlı ve kirli tabakayı tamamen ortadan kaldıramaz",
+    "Uzun süreli temizlik etkisi sağlamadığı için sık ve tekrarlayan temizlik ihtiyacı doğurur",
+  ],
+  paragraph: "Bu nedenlerle, geleneksel temizlik yaklaşımları kalıcı hijyen ve doğal denge açısından yetersiz kalmaktadır. ",
+  warning: "Ürünlerimiz temizlik maddesidir ve biyosidal ürün olarak kullanılama",
   imageDir: "images/products_pages/pp_2.png",
   imageName: "Home Cleaning Products",
 };
