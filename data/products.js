@@ -66,9 +66,9 @@ ProductGroupIntroText[ProductGroup.Pet] = {
     
  ],
   paragraph: "Bu nedenlerle, geleneksel temizlik yaklaşımları kalıcı hijyen ve doğal denge açısından yetersiz kalmaktadır. ",
-  warning: "Ürünlerimiz temizlik maddesidir ve biyosidal ürün olarak kullanılamaz",
-  imageDir: "images/products_pages/pp_2.png",
-  imageName: "Home Cleaning Products",
+  warning: "",
+  imageDir: "images/products_pages/pp_7.png",
+  imageName: "PET Products",
 };
 var products = [
     {
