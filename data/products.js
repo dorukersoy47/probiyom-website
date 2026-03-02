@@ -143,4 +143,14 @@ var products = [
         isAvailable: true,
         bullets: ["Mükemmel Yağ Çözme Gücü", "Uzun Süreli Etki", "Stabil ve yoğun etkili Köpük Yapısı", "Yüzeylerde leke veya kalıntı bırakmadan kurulama", "Probiyotiklerin sürekli etkisi sayesinde Giderlerde devam eden temizlik"] 
     },  
+   {
+        id: "GR0202XX",
+        group: ProductGroup.HomeCleaning,
+        name: "HeiQ VivoTech Sıvı Çamaşır Deterjanı",
+        description: "HeiQ VivoTech Sıvı Çamaşır Deterjanı, probiyotik bakteriler ile zenginleştirilmiş, yüksek konsantrasyonlu bir sıvı çamaşır deterjanıdır. Beyaz ve renkli (renk atmayan) tekstiller için uygundur (ipek için uygun değildir). Ürünün etkinliği, yüzey aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal  hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar",
+        imageDir: "images/products/p_202.jpg",
+        imageName: "Product 202",
+        isAvailable: true,
+        bullets: ["30°C – 60°C aralığında düşük sıcaklıklarda etkilidir.", "Düşük sıcaklıklarda dahi yüksek leke çıkarma performansı sunar.", "İçerdiği probiyotik bakteriler sayesinde kötü kokuları kalıcı olarak giderir.", "Normalde düşük sıcaklıkta yıkamada kalıcı olan kokular üzerinde etkilidir.", "Ağartıcı (bleach) ve optik parlatıcı içermez."] 
+    },  
 ];
