@@ -58,18 +58,18 @@ ProductGroupIntroText[ProductGroup.HomeCleaning] = {
 };
 
 ProductGroupIntroText[ProductGroup.Pet] = {
-  heading: "Probiyotikler, hayvanların deri ve tüy yapısında dengeli bir mikrobiyal ortamın korunmasına ve genel iyi haline katkıda bulunur.".
+  heading: "Probiyotikler, hayvanların deri ve tüy yapısında dengeli bir mikrobiyal ortamın korunmasına ve genel iyi haline katkıda bulunur.",
   bullets: [
     "Dengeli bir mikrobiyom, cildin doğal koruyucu bariyerini destekler",
     "istenmeyen kokuların kontrolüne yardımcı olur ve alerjen birikimini azaltır",
     "Probiyotikler, mikroskobik düzeyde temizlik sağlayarak yalnızca yüzeyde değil, derinlemesine etki gösterir; tüy ve derinin temiz, sağlıklı ve ferah kalmasına destek olur",
-    
- ],
+  ],
   paragraph: "Bu nedenlerle, geleneksel temizlik yaklaşımları kalıcı hijyen ve doğal denge açısından yetersiz kalmaktadır. ",
   warning: "",
   imageDir: "images/products_pages/pp_7.png",
   imageName: "PET Products",
 };
+
 var products = [
     {
         id: "GR0101XX",
