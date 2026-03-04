@@ -83,10 +83,15 @@ ProductGroupIntroText[ProductGroup.ColdMistSpraying] = {
 };
 
 ProductGroupIntroText[ProductGroup.IndustrialWaterTreatment] = {
-  heading: "Büyük endüstriyel su sistemleri ve göletler, sıklıkla, organik birikim, bulanık su ve mikrobiyal dengesizliklerin neden olduğu verimsizlikler  gibi zorluklarla karşı karşıya kalır.",
+  heading: "Probiyotik su arıtma çözümlerimiz, Endüstriyel su tesislerinde organik birikintilere nüfuz ederek temizler, dağıtır ve yeniden oluşumlarını azaltmaya yardımcı olur.",
   bullets: [
-    "Probiyotiklerin, istenmeyen organik birikintileri etkin şekilde azalttığı, su kalitesini iyileştirdiği, ",    
-    "Sert kimyasallara olan bağımlılığı minimize ettiği gösterilmiştir",
+    "Büyük endüstriyel su sistemleri ve göletler, sıklıkla, organik birikim, bulanık su ve mikrobiyal dengesizliklerin neden olduğu verimsizlikler  gibi zorluklarla karşı karşıya kalır."
+    "Probiyotiklerin, istenmeyen organik birikintileri etkin şekilde azalttığı, su kalitesini iyileştirdiği ve sert kimyasallara olan bağımlılığı minimize ettiği gösterilmiştir ",    
+    "Biyolojik olarak parçalanabilir bileşenler içerir, pH nötrdür",
+    "Biyosit içermez",
+    "Biyobazlı yüzey aktif maddelerle birlikte yüksek performanslı biyo-dispersan olarak etki gösterir",
+    "Endüstriyel soğutma suyu sistemlerinin güvenilirliğini ve performansını artırır.",
+    "Gerekli bakım sıklığını azaltarak, kimyasal tüketimini düşürerek ve su ile enerji tasarrufu sağlayarak operasyonel maliyetlerin azaltılmasına katkıda bulunur",
   ],
   paragraph: "Sahadan aldığımız geri bildirimler, bu çözümlerin daha temiz ve daha stabil su sistemlerinin korunmasında yüksek etkinlik sağladığını ve bakım gereksinimlerini önemli ölçüde azalttığını ortaya koymaktadır.",
   warning: "",
