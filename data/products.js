@@ -83,27 +83,27 @@ ProductGroupIntroText[ProductGroup.ColdMistSpraying] = {
 };
 
 ProductGroupIntroText[ProductGroup.IndustrialWaterTreatment] = {
-  heading: "İnsan cildi, sağlığın korunması ve sürdürülmesinde hayati rol oynayan trilyonlarca mikroorganizmaya ev sahipliği yapar. Dengeli bir cilt mikrobiyomu, cildin doğal savunma mekanizmalarını güçlendirmeye, nem dengesini düzenlemeye ve gözle görülür yenilenme süreçlerini desteklemeye yardımcı olur.",
+  heading: "Büyük endüstriyel su sistemleri ve göletler, sıklıkla, organik birikim, bulanık su ve mikrobiyal dengesizliklerin neden olduğu verimsizlikler  gibi zorluklarla karşı karşıya kalır.",
   bullets: [
-    "Probiyotik cilt bakımı, bu dengeyi yeniden kazandırmak ve sürdürmek amacıyla faydalı bakteriler sağlar; böylece sağlıklı ve dirençli bir cilt için uzun süreli destek sunar",    
-    "Hücre lizatı (lysis: hücre duvarının parçalanması) veya ısıyla devra dışı bırakılmış probiyotiklerin aksine, spor bazlı formülasyonlarımız canlı probiyotiklerin korunmasını sağlar ve yalnızca cilde uygulandığında aktive olmalarına imkân tanır",
+    "Probiyotiklerin, istenmeyen organik birikintileri etkin şekilde azalttığı, su kalitesini iyileştirdiği ve sert kimyasallara olan bağımlılığı minimize ettiği gösterilmiştir.",    
+    "ve Sert kimyasallara olan bağımlılığı minimize ettiği gösterilmiştir",
   ],
-  paragraph: "Bu sayede, geleneksel kişisel bakım ürünlerinden faklı olarak daha kalıcı ve doğal dengeyi koruma açısından üstünlük sağlar. ",
+  paragraph: "Sahadan aldığımız geri bildirimler, bu çözümlerin daha temiz ve daha stabil su sistemlerinin korunmasında yüksek etkinlik sağladığını ve bakım gereksinimlerini önemli ölçüde azalttığını ortaya koymaktadır.",
   warning: "",
   imageDir: "images/products_pages/pp_5.png",
   imageName: "Industrial Water Treatment Products",
 };
 
 ProductGroupIntroText[ProductGroup.Livestock] = {
-  heading: "İnsan cildi, sağlığın korunması ve sürdürülmesinde hayati rol oynayan trilyonlarca mikroorganizmaya ev sahipliği yapar. Dengeli bir cilt mikrobiyomu, cildin doğal savunma mekanizmalarını güçlendirmeye, nem dengesini düzenlemeye ve gözle görülür yenilenme süreçlerini desteklemeye yardımcı olur.",
+  heading: "Hayvan Çiftlikleri ve barınaklarında, Hayvanların toplu halde bulunduğu kapalı yerlerde, dengeli bir mikrobiyal ortamın oluşmasına, hijyenin iyileştirilmesine, organik birikimin azaltılmasına ve hayvanların genel sağlığının desteklenmesine yardımcı olur..",
   bullets: [
-    "Probiyotik cilt bakımı, bu dengeyi yeniden kazandırmak ve sürdürmek amacıyla faydalı bakteriler sağlar; böylece sağlıklı ve dirençli bir cilt için uzun süreli destek sunar",    
-    "Hücre lizatı (lysis: hücre duvarının parçalanması) veya ısıyla devra dışı bırakılmış probiyotiklerin aksine, spor bazlı formülasyonlarımız canlı probiyotiklerin korunmasını sağlar ve yalnızca cilde uygulandığında aktive olmalarına imkân tanır",
+    "Probiyotik çiftlik ve Ahır hijyen çözümleri, faydalı mikrobiyal aktiviteyi teşvik ederek amonyak seviyelerinin düşürülmesini sağlar",    
+    "Hava kalitesinin iyileştirilmesine ve daha temiz barınma koşullarının sağlanmasına katkıda bulunur.",
   ],
-  paragraph: "Bu sayede, geleneksel kişisel bakım ürünlerinden faklı olarak daha kalıcı ve doğal dengeyi koruma açısından üstünlük sağlar. ",
+  paragraph: "Çiftliklerin kimyasal bazlı dezenfektanlardan uzaklaştığı günümüzde, probiyotikler biyolojik olarak parçalanabilir ve toksik olmayan bir alternatif sunarak hijyenin doğal yollarla desteklenmesini sağlar ve modern sürdürülebilirlik uygulamalarıyla uyum gösterir.",
   warning: "",
   imageDir: "images/products_pages/pp_6.png",
-  imageName: "Personal Care Products",
+  imageName: "Animal Housing Products",
 };
 
 ProductGroupIntroText[ProductGroup.Pet] = {
