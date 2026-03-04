@@ -58,7 +58,7 @@ ProductGroupIntroText[ProductGroup.HomeCleaning] = {
 };
 
 ProductGroupIntroText[ProductGroup.PersonalCare] = {
-  heading: "İnsan cildi, sağlığın korunması ve sürdürülmesinde hayati rol oynayan trilyonlarca mikroorganizmaya ev sahipliği yapar. Dengeli bir cilt mikrobiyomu, cildin doğal savunma mekanizmalarını güçlendirmeye, nem dengesini düzenlemeye ve gözle görülür yenilenme süreçlerini desteklemeye yardımcı olur.",
+  heading: "İnsan cildi, sağlığımızın korunması ve sürdürülmesinde hayati rol oynayan trilyonlarca mikroorganizmaya ev sahipliği yapar. Dengeli bir cilt mikrobiyomu, cildin doğal savunma mekanizmalarını güçlendirmeye, nem dengesini düzenlemeye ve gözle görülür yenilenme süreçlerini desteklemeye yardımcı olur.",
   bullets: [
     "Probiyotik cilt bakımı, bu dengeyi yeniden kazandırmak ve sürdürmek amacıyla faydalı bakteriler sağlar; böylece sağlıklı ve dirençli bir cilt için uzun süreli destek sunar",    
     "Hücre lizatı (lysis: hücre duvarının parçalanması) veya ısıyla devra dışı bırakılmış probiyotiklerin aksine, spor bazlı formülasyonlarımız canlı probiyotiklerin korunmasını sağlar ve yalnızca cilde uygulandığında aktive olmalarına imkân tanır",
