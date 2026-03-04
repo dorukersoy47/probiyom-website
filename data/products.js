@@ -85,8 +85,8 @@ ProductGroupIntroText[ProductGroup.ColdMistSpraying] = {
 ProductGroupIntroText[ProductGroup.IndustrialWaterTreatment] = {
   heading: "Büyük endüstriyel su sistemleri ve göletler, sıklıkla, organik birikim, bulanık su ve mikrobiyal dengesizliklerin neden olduğu verimsizlikler  gibi zorluklarla karşı karşıya kalır.",
   bullets: [
-    "Probiyotiklerin, istenmeyen organik birikintileri etkin şekilde azalttığı, su kalitesini iyileştirdiği ve sert kimyasallara olan bağımlılığı minimize ettiği gösterilmiştir.",    
-    "ve Sert kimyasallara olan bağımlılığı minimize ettiği gösterilmiştir",
+    "Probiyotiklerin, istenmeyen organik birikintileri etkin şekilde azalttığı, su kalitesini iyileştirdiği, ",    
+    "Sert kimyasallara olan bağımlılığı minimize ettiği gösterilmiştir",
   ],
   paragraph: "Sahadan aldığımız geri bildirimler, bu çözümlerin daha temiz ve daha stabil su sistemlerinin korunmasında yüksek etkinlik sağladığını ve bakım gereksinimlerini önemli ölçüde azalttığını ortaya koymaktadır.",
   warning: "",
