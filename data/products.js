@@ -172,6 +172,16 @@ var products = [
         bullets: ["30°C – 60°C aralığında düşük sıcaklıklarda etkilidir.", "Düşük sıcaklıklarda dahi yüksek leke çıkarma performansı sunar.", "İçerdiği probiyotik bakteriler sayesinde kötü kokuları kalıcı olarak giderir.", "Normalde düşük sıcaklıkta yıkamada kalıcı olan kokular üzerinde etkilidir.", "Ağartıcı (bleach) ve optik parlatıcı içermez.",] 
     },
   {
+        id: "GR0204XX",
+        group: ProductGroup.HomeCleaning,
+        name: "HeiQ Synbio Alerjen Sprey",
+        description: "HeiQ Synbio Alerjen Spreyi, probiyotikli bir sprey, alerjenleri parçalamaya yardımcı olur ve hoş olmayan kokuları azaltır. ",
+        imageDir: "images/products/p_204.jpg",
+        imageName: "Product 204",
+        isAvailable: true,
+        bullets: ["Bu çok yönlü sinbiyotik temizlik spreyi, yüzeyleri ve ortamı faydalı bakterilerle kolonize eder.", "Probiyotikler; toz akarı kalıntıları, polen, evcil hayvan tüyü/deri döküntüsü, idrar ve tükürük gibi yaygın cansız alerjenlerin azaltılmasına yardımcı olur.", "Püskürtme sonrasında günler boyunca aktif kalmaya devam ederek uzun süreli etki sağlar.", "Mikroskobik düzeyde derin temizlik sayesinde en küçük kir partiküllerine kadar etki eder.", "Hoş olmayan kokuları giderir ve yeniden oluşumunu önler.", "Çoğu kumaş ve halı için güvenlidir. Deri, süet ve ipek üzerinde kullanımı önerilmez.", "Püskürtme sonrasında günler boyunca etki göstermeye devam eder.", "Patentli HeiQ Synbio Teknolojisi içerir.", "180 ml / 6 oz.", "Belçika’da üretilmiştir.",] 
+    },
+  {
         id: "GR0203XX",
         group: ProductGroup.HomeCleaning,
         name: "HeiQ VivoTech Temizlik Spreyi",
@@ -182,13 +192,13 @@ var products = [
         bullets: ["Son derece etkili temizleme gücü.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Hoş olmayan koku riskini azaltır.", "Sağlıklı bir mikroflora oluşumunu destekler.",] 
     },
   {
-        id: "GR0204XX",
+        id: "GR0205XX",
         group: ProductGroup.HomeCleaning,
         name: "HeiQ Synbio Alerjen Sprey",
-        description: "HeiQ Synbio Alerjen Spreyi, probiyotikli bir sprey, alerjenleri parçalamaya yardımcı olur ve hoş olmayan kokuları azaltır. ",
-        imageDir: "images/products/p_204.jpg",
-        imageName: "Product 204",
-        isAvailable: true,
-        bullets: ["Bu çok yönlü sinbiyotik temizlik spreyi, yüzeyleri ve ortamı faydalı bakterilerle kolonize eder.", "Probiyotikler; toz akarı kalıntıları, polen, evcil hayvan tüyü/deri döküntüsü, idrar ve tükürük gibi yaygın cansız alerjenlerin azaltılmasına yardımcı olur.", "Püskürtme sonrasında günler boyunca aktif kalmaya devam ederek uzun süreli etki sağlar.", "Mikroskobik düzeyde derin temizlik sayesinde en küçük kir partiküllerine kadar etki eder.", "Hoş olmayan kokuları giderir ve yeniden oluşumunu önler.", "Çoğu kumaş ve halı için güvenlidir. Deri, süet ve ipek üzerinde kullanımı önerilmez.", "Püskürtme sonrasında günler boyunca etki göstermeye devam eder.", "Patentli HeiQ Synbio Teknolojisi içerir.", "180 ml / 6 oz.", "Belçika’da üretilmiştir.",] 
+        description: "HeiQ Synbio Temizlik spreyi, ..... ",
+        imageDir: "images/products/p_205.jpg",
+        imageName: "Product 205",
+        isAvailable: false,
+        bullets: ["Bu ....",] 
     },
 ];
