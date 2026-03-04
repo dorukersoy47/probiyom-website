@@ -170,5 +170,16 @@ var products = [
         imageName: "Product 202",
         isAvailable: true,
         bullets: ["30°C – 60°C aralığında düşük sıcaklıklarda etkilidir.", "Düşük sıcaklıklarda dahi yüksek leke çıkarma performansı sunar.", "İçerdiği probiyotik bakteriler sayesinde kötü kokuları kalıcı olarak giderir.", "Normalde düşük sıcaklıkta yıkamada kalıcı olan kokular üzerinde etkilidir.", "Ağartıcı (bleach) ve optik parlatıcı içermez.",] 
-    },  
+    },
+  {
+        id: "GR0203XX",
+        group: ProductGroup.HomeCleaning,
+        name: "HeiQ VivoTech Temizlik Spreyi",
+        description: "HeiQ VivoTech Temizlik Spreyi, kullanıma hazır çok amaçlı probiyotikli bir temizleyicidir. Her türlü yüzeydeki tüm organik kirleri temizlemek için uygundur. Ürünün etkinliği, yüzey aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal  hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar",
+        imageDir: "images/products/p_203.jpg",
+        imageName: "Product 203",
+        isAvailable: true,
+        bullets: ["Son derece etkili temizleme gücü.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Hoş olmayan koku riskini azaltır.", "Sağlıklı bir mikroflora oluşumunu destekler.",] 
+    },
+  
 ];
