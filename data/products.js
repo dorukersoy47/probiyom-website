@@ -61,11 +61,48 @@ ProductGroupIntroText[ProductGroup.PersonalCare] = {
   heading: "İnsan cildi, sağlığın korunması ve sürdürülmesinde hayati rol oynayan trilyonlarca mikroorganizmaya ev sahipliği yapar. Dengeli bir cilt mikrobiyomu, cildin doğal savunma mekanizmalarını güçlendirmeye, nem dengesini düzenlemeye ve gözle görülür yenilenme süreçlerini desteklemeye yardımcı olur.",
   bullets: [
     "Probiyotik cilt bakımı, bu dengeyi yeniden kazandırmak ve sürdürmek amacıyla faydalı bakteriler sağlar; böylece sağlıklı ve dirençli bir cilt için uzun süreli destek sunar",    
-    "Hücre lizatı (lysis: hücre duvarının parçalanması) veya ısıyla inaktive edilmiş probiyotiklerin aksine, spor bazlı formülasyonlarımız canlı probiyotiklerin korunmasını sağlar ve yalnızca cilde uygulandığında aktive olmalarına imkân tanır",
+    "Hücre lizatı (lysis: hücre duvarının parçalanması) veya ısıyla devra dışı bırakılmış probiyotiklerin aksine, spor bazlı formülasyonlarımız canlı probiyotiklerin korunmasını sağlar ve yalnızca cilde uygulandığında aktive olmalarına imkân tanır",
   ],
-  paragraph: "Bu sayede, geleneksel kişisel bakım ürümlerinden faklı olarak daha kalıcı ve doğal dengeyi koruma açısından üstünlük sağlar. ",
+  paragraph: "Bu sayede, geleneksel kişisel bakım ürünlerinden faklı olarak daha kalıcı ve doğal dengeyi koruma açısından üstünlük sağlar. ",
   warning: "",
   imageDir: "images/products_pages/pp_3.png",
+  imageName: "Personal Care Products",
+};
+
+ProductGroupIntroText[ProductGroup.ColdMistSpraying] = {
+  heading: "Ofisler, oteller ve kamusal alanlar gibi insan yoğun ortamlar, tüm yüzeylerde sürekli olarak organik birikime ve kire maruz kalır.",
+  bullets: [
+    "VivoTech yüzey Soğuk sisleme (fogging) ve püskürtme çözümümüz, ulaşılması zor alanların daha etkin şekilde işlenmesine yardımcı olur",    
+    "Faydalı probiyotiklerin yüzeylere yerleşmesini ve uzun zaman aktif kalmasını sağlar",
+    "HVAC (ısıtma, havalandırma ve iklimlendirme), klima veya hava temizleme sistemleriyle kullanıldığında, ortam havasındaki mikrobiyal dengenin desteklenmesine katkıda bulunur.",
+  ],
+  paragraph: "Kuruduktan sonra etkisi sona eren geleneksel temizlik ürünlerinin aksine, probiyotikler yüzeylerin uzun süre temiz kalamasına katkı sağlar.",
+  warning: "",
+  imageDir: "images/products_pages/pp_4.png",
+  imageName: "Fogging & Misting Products",
+};
+
+ProductGroupIntroText[ProductGroup.IndustrialWaterTreatment] = {
+  heading: "İnsan cildi, sağlığın korunması ve sürdürülmesinde hayati rol oynayan trilyonlarca mikroorganizmaya ev sahipliği yapar. Dengeli bir cilt mikrobiyomu, cildin doğal savunma mekanizmalarını güçlendirmeye, nem dengesini düzenlemeye ve gözle görülür yenilenme süreçlerini desteklemeye yardımcı olur.",
+  bullets: [
+    "Probiyotik cilt bakımı, bu dengeyi yeniden kazandırmak ve sürdürmek amacıyla faydalı bakteriler sağlar; böylece sağlıklı ve dirençli bir cilt için uzun süreli destek sunar",    
+    "Hücre lizatı (lysis: hücre duvarının parçalanması) veya ısıyla devra dışı bırakılmış probiyotiklerin aksine, spor bazlı formülasyonlarımız canlı probiyotiklerin korunmasını sağlar ve yalnızca cilde uygulandığında aktive olmalarına imkân tanır",
+  ],
+  paragraph: "Bu sayede, geleneksel kişisel bakım ürünlerinden faklı olarak daha kalıcı ve doğal dengeyi koruma açısından üstünlük sağlar. ",
+  warning: "",
+  imageDir: "images/products_pages/pp_5.png",
+  imageName: "Industrial Water Treatment Products",
+};
+
+ProductGroupIntroText[ProductGroup.Livestock] = {
+  heading: "İnsan cildi, sağlığın korunması ve sürdürülmesinde hayati rol oynayan trilyonlarca mikroorganizmaya ev sahipliği yapar. Dengeli bir cilt mikrobiyomu, cildin doğal savunma mekanizmalarını güçlendirmeye, nem dengesini düzenlemeye ve gözle görülür yenilenme süreçlerini desteklemeye yardımcı olur.",
+  bullets: [
+    "Probiyotik cilt bakımı, bu dengeyi yeniden kazandırmak ve sürdürmek amacıyla faydalı bakteriler sağlar; böylece sağlıklı ve dirençli bir cilt için uzun süreli destek sunar",    
+    "Hücre lizatı (lysis: hücre duvarının parçalanması) veya ısıyla devra dışı bırakılmış probiyotiklerin aksine, spor bazlı formülasyonlarımız canlı probiyotiklerin korunmasını sağlar ve yalnızca cilde uygulandığında aktive olmalarına imkân tanır",
+  ],
+  paragraph: "Bu sayede, geleneksel kişisel bakım ürünlerinden faklı olarak daha kalıcı ve doğal dengeyi koruma açısından üstünlük sağlar. ",
+  warning: "",
+  imageDir: "images/products_pages/pp_6.png",
   imageName: "Personal Care Products",
 };
 
