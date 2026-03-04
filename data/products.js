@@ -58,13 +58,12 @@ ProductGroupIntroText[ProductGroup.HomeCleaning] = {
 };
 
 ProductGroupIntroText[ProductGroup.PersonalCare] = {
-  heading: "Probiyotikler, hayvanların deri ve tüy yapısında dengeli bir mikrobiyal ortamın korunmasına ve genel iyi haline katkıda bulunur.",
+  heading: "İnsan cildi, sağlığın korunması ve sürdürülmesinde hayati rol oynayan trilyonlarca mikroorganizmaya ev sahipliği yapar. Dengeli bir cilt mikrobiyomu, cildin doğal savunma mekanizmalarını güçlendirmeye, nem dengesini düzenlemeye ve gözle görülür yenilenme süreçlerini desteklemeye yardımcı olur.",
   bullets: [
-    "Dengeli bir mikrobiyom, cildin doğal koruyucu bariyerini destekler",
-    "istenmeyen kokuların kontrolüne yardımcı olur ve alerjen birikimini azaltır",
-    "Probiyotikler, mikroskobik düzeyde temizlik sağlayarak yalnızca yüzeyde değil, derinlemesine etki gösterir; tüy ve derinin temiz, sağlıklı ve ferah kalmasına destek olur",
+    "Probiyotik cilt bakımı, bu dengeyi yeniden kazandırmak ve sürdürmek amacıyla faydalı bakteriler sağlar; böylece sağlıklı ve dirençli bir cilt için uzun süreli destek sunar",    
+    "Hücre lizatı (lysis: hücre duvarının parçalanması) veya ısıyla inaktive edilmiş probiyotiklerin aksine, spor bazlı formülasyonlarımız canlı probiyotiklerin korunmasını sağlar ve yalnızca cilde uygulandığında aktive olmalarına imkân tanır",
   ],
-  paragraph: "Bu nedenlerle, geleneksel temizlik yaklaşımları kalıcı hijyen ve doğal denge açısından yetersiz kalmaktadır. ",
+  paragraph: "Bu sayede, geleneksel kişisel bakım ürümlerinden faklı olarak daha kalıcı ve doğal dengeyi koruma açısından üstünlük sağlar. ",
   warning: "",
   imageDir: "images/products_pages/pp_3.png",
   imageName: "Personal Care Products",
