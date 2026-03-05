@@ -100,9 +100,14 @@ ProductGroupIntroText[ProductGroup.IndustrialWaterTreatment] = {
 };
 
 ProductGroupIntroText[ProductGroup.Livestock] = {
-  heading: "Hayvan Çiftlikleri ve barınaklarında, Hayvanların toplu halde bulunduğu kapalı yerlerde, dengeli bir mikrobiyal ortamın oluşmasına, hijyenin iyileştirilmesine, organik birikimin azaltılmasına ve hayvanların genel sağlığının desteklenmesine yardımcı olur..",
+  heading: "Doğada tasarlandı, bilimle mükemmelleştirildi.", "Hayvan Çiftlikleri ve barınaklarında, Hayvanların toplu halde bulunduğu kapalı yerlerde, dengeli bir mikrobiyal ortamın oluşmasına, hijyenin iyileştirilmesine, organik birikimin azaltılmasına ve hayvanların genel sağlığının desteklenmesine yardımcı olur.",
   bullets: [
     "Probiyotik çiftlik ve Ahır hijyen çözümleri, faydalı mikrobiyal aktiviteyi teşvik ederek amonyak seviyelerinin düşürülmesini sağlar",    
+    "Güçlü ve verimli hayvanlar",
+    "Yüzeylerde dengeli bir mikrobiyom",
+    "Minimum koku (özellikle amonyak kaynaklı)",
+    "Daha düşük nem seviyesi",
+    "Daha kuru altlık ve saman",
     "Hava kalitesinin iyileştirilmesine ve daha temiz barınma koşullarının sağlanmasına katkıda bulunur.",
   ],
   paragraph: "Çiftliklerin kimyasal bazlı dezenfektanlardan uzaklaştığı günümüzde, probiyotikler biyolojik olarak parçalanabilir ve toksik olmayan bir alternatif sunarak hijyenin doğal yollarla desteklenmesini sağlar ve modern sürdürülebilirlik uygulamalarıyla uyum gösterir.",
