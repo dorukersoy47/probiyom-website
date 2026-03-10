@@ -257,7 +257,17 @@ var products = [
         description: "HeiQ VivoTech Tuvalet Jeli (Toilet Gel), günlük kullanım için geliştirilmiş bir probiyotik tuvalet temizleyicisidir. Ürünün etkisi; yüzeyel aktif maddeler ile uzun süre boyunca enzim üreten probiyotiklerin birleşimine dayanır. Bu enzimler organik kirleri parçalayarak kirin yüzeyden ayrılmasını sağlar. Çözünmüş veya kolloidal  bir yapıya dönüşen Aktif Maddeler kirin mekanik ve/veya fiziksel yöntemlerle uzaklaştırılması ve temizlenmesini kolaylaştırır. HeiQ VivoTech Tuvalet Jeli (Toilet Gel), içerdiği probiyotiklerin gider boruları ve fosseptik de çalışmaya devam etmesi sayesinde kireç oluşumunu ve gider tıkanıklığı riskini azaltır. ",
         imageDir: "images/products/p_108.jpg",
         imageName: "Product 205",
-        isAvailable: false,
+        isAvailable: true,
         bullets: ["Koku oluşumunu önler ve temizlenen yüzeylerde sağlıklı bir mikroflora oluşturur.", "Jel formülü sayesinde yüzeye daha uzun süre tutunur, böylece daha yüksek verimlilik sağlar.", "Uzun süren, kalıcı, ferah bir koku bırakır.",] 
+    },
+   {
+        id: "GR0206XX",
+        group: ProductGroup.HomeCleaning,
+        name: "HeiQ VivoTech Hijyen (Sanitary)",
+        description: "HeiQ VivoTech Hijyen (Sanitary) mikroorganizmalar temel alınarak geliştirilmiş, çevreye faydalı etki sağlayan güçlü bir probiyotik temizlik ürünüdür. Ürünün etkinliği, yüzeyel aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal  hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar.",
+        imageDir: "images/products/p_206.jpg",
+        imageName: "Product 206",
+        isAvailable: true,
+        bullets: ["Hızlı ve zahmetsiz temizlik sağlar.", "Kireç oluşumunu önler.", "İz ve leke bırakmadan temizler.", "Nötr pH", "Kötü koku, biyofilm, alerjen ve zararlı mikroorganizmaların oluşma riskini önemli ölçüde azaltır.", "Ferah hoş bir koku bırakır.",] 
     },
 ];
