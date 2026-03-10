@@ -117,7 +117,7 @@ ProductGroupIntroText[ProductGroup.Livestock] = {
 };
 
 ProductGroupIntroText[ProductGroup.Pet] = {
-  heading: "Probiyotikler, hayvanların deri ve tüy yapısında dengeli bir mikrobiyal ortamın korunmasına ve genel iyi haline katkıda bulunur. Alerjen ve koku kontrolü – Mutlu patiler, Mutlu sahipler",
+  heading: "Alerjen ve koku kontrolü – Mutlu patiler, Mutlu sahipler. Probiyotikler, hayvanların deri ve tüy yapısında dengeli bir mikrobiyal ortamın korunmasına ve genel iyi haline katkıda bulunur.",
   bullets: [
     "Evcil Hayvanınızın kendisinde ve çevresinde doğrudan kullanıma uygundur.", 
     "Alerjen ve koku kontrolü sağlar",
