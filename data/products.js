@@ -117,13 +117,13 @@ ProductGroupIntroText[ProductGroup.Livestock] = {
 };
 
 ProductGroupIntroText[ProductGroup.Pet] = {
-  heading: "Probiyotikler, hayvanların deri ve tüy yapısında dengeli bir mikrobiyal ortamın korunmasına ve genel iyi haline katkıda bulunur.",
+  heading: "Probiyotikler, hayvanların deri ve tüy yapısında dengeli bir mikrobiyal ortamın korunmasına ve genel iyi haline katkıda bulunur. Alerjen ve koku kontrolü – Mutlu patiler, Mutlu sahipler",
   bullets: [
     "Dengeli bir mikrobiyom, cildin doğal koruyucu bariyerini destekler",
     "istenmeyen kokuların kontrolüne yardımcı olur ve alerjen birikimini azaltır",
     "Probiyotikler, mikroskobik düzeyde temizlik sağlayarak yalnızca yüzeyde değil, derinlemesine etki gösterir; tüy ve derinin temiz, sağlıklı ve ferah kalmasına destek olur",
   ],
-  paragraph: "Bu nedenlerle, geleneksel temizlik yaklaşımları kalıcı hijyen ve doğal denge açısından yetersiz kalmaktadır. ",
+  paragraph: "Evcil hayvanınızı ve yaşam alanını dezenfektanlar, sert kimyasallar veya sabunlarla değil, probiyotiklerle temizleyin! Doğada tasarlandı, bilimle mükemmelleştirildi. HeiQ Synbio Pet, evcil hayvanınızın deri ve tüy yapısında ve yaşam ortamında dengeli bir mikrobiyomun korunmasına yardımcı olur.HeiQ Synbio Pet’in probiyotik ve prebiyotiklerden oluşan benzersiz formülü, evcil hayvanlardan kaynaklanan istenmeyen kokuların azaltılmasına ve yeniden oluşumunun önlenmesine yardımcı olur. Aynı zamanda sağlıklı bir deri ve parlak, bakımlı bir tüy görünümü için uygun bir ortam oluşturur.",
   warning: "",
   imageDir: "images/products_pages/pp_7.png",
   imageName: "PET Products",
