@@ -10,7 +10,7 @@
   top: 0;
   z-index: 100;
   width: 100%;
-  background: linear-gradient(to right, var(--color-tropical-teal), var(--color-tropical-teal));
+  background: linear-gradient(to right, var(--color-baltic-blue), var(--color-tropical-teal));
 }
 
 .app-main {
