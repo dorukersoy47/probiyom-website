@@ -100,7 +100,7 @@ ProductGroupIntroText[ProductGroup.IndustrialWaterTreatment] = {
 };
 
 ProductGroupIntroText[ProductGroup.Livestock] = {
-  heading: "Doğada tasarlandı, bilimle mükemmelleştirildi. Hayvan Çiftlikleri ve barınaklarında, Hayvanların toplu halde bulunduğu kapalı yerlerde, dengeli bir mikrobiyal ortamın oluşmasına, hijyenin desteklenmesine, organik birikimin azaltılmasına ve hayvanların yaşam alanlarında dengeli bir mikrobiyomun korunmasına yardımcı olur." .",
+  heading: "Doğada tasarlandı, bilimle mükemmelleştirildi. Hayvan Çiftlikleri ve barınaklarında, Hayvanların toplu halde bulunduğu kapalı yerlerde, dengeli bir mikrobiyal ortamın oluşmasına, hijyenin desteklenmesine, organik birikimin azaltılmasına ve hayvanların yaşam alanlarında dengeli bir mikrobiyomun korunmasına yardımcı olur.",
   bullets: [
     "Probiyotik çiftlik ve Ahır hijyen çözümleri, faydalı mikrobiyal aktiviteyi teşvik ederek amonyak seviyelerinin düşürülmesini sağlar",    
     "Dengeli mikrobiyom ortamında barındırılan hayvanlar",
