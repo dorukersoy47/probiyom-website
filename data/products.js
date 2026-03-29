@@ -192,7 +192,7 @@ var products = [
         isAvailable: true,
         bullets: ["Genellikle fırçalama veya ovma gerektirmeden, hızlı ve etkili temizlik sağlar.", "Bulunduğu ortamda dengeli bir mikroflora oluşumunu destekler.", "Kalıcı probiyotik etkisi sayesinde yüzeylerde uzun süreli doğal denge sağlar.", "Zamandan tasarruf sağlayan, ekonomik bir kullanım sunar.", "Kalıcı etkisi sayesinde atık su üzerinde olumlu bir etki yaratır."] 
     },
-        {
+    {
         id: "GR0107XX",
         group: ProductGroup.ProfessionalCleaning,
         name: "HeiQ VivoTech Sıhhi Temizlik (Sanitary)",
@@ -202,7 +202,7 @@ var products = [
         isAvailable: true,
         bullets: ["Hızlı ve zahmetsiz temizlik sağlar.", "Kireç oluşumunu önler.", "İz ve leke bırakmadan temizler.", "Nötr pH", "Kötü koku, biyofilm ve alerjen oluşum riskini önemli ölçüde azaltır ve mikrobiyom dengesini destekler.", "Ferah hoş bir koku bırakır."] 
     },
-        {
+    {
         id: "GR0108XX",
         group: ProductGroup.ProfessionalCleaning,
         name: "HeiQ VivoTech Tuvalet Jeli (ToiletGel)",
@@ -212,7 +212,7 @@ var products = [
         isAvailable: true,
         bullets: ["Koku oluşumunu önler ve temizlenen yüzeylerde dengeli bir mikroflora oluşturur", "Jel formülü sayesinde yüzeye daha uzun süre tutunur, böylece daha yüksek verimlilik sağlar", "Uzun süren, kalıcı, ferah bir koku bırakır"] 
     },
- {
+   {
         id: "GR0201XX",
         group: ProductGroup.HomeCleaning,
         name: "HeiQ VivoTech Sıvı Bulaşık Deterjanı",
@@ -220,7 +220,7 @@ var products = [
         imageDir: "images/products/p_201.jpg",
         imageName: "Product 201",
         isAvailable: true,
-        bullets: ["Mükemmel Yağ Çözme Gücü", "Uzun Süreli Etki", "Stabil ve yoğun etkili Köpük Yapısı", "Yüzeylerde leke veya kalıntı bırakmadan kurulama", "Probiyotiklerin sürekli etkisi sayesinde Giderlerde devam eden temizlik"] 
+        bullets: ["Mükemmel Yağ Çözme Gücü", "Uzun Süreli Etki", "Stabil ve yoğun etkili Köpük Yapısı", "Yüzeylerde leke veya kalıntı bırakmadan kurulama", "Probiyotiklerin sürekli etkisi sayesinde Giderlerde devam eden temizlik",] 
     },  
    {
         id: "GR0202XX",
@@ -232,7 +232,7 @@ var products = [
         isAvailable: true,
         bullets: ["30°C – 60°C aralığında düşük sıcaklıklarda etkilidir.", "Düşük sıcaklıklarda dahi yüksek leke çıkarma performansı sunar.", "İçerdiği probiyotik bakteriler sayesinde kötü kokuları kalıcı olarak giderir.", "Normalde düşük sıcaklıkta yıkamada kalıcı olan kokular üzerinde etkilidir.", "Ağartıcı (bleach) ve optik parlatıcı içermez.",] 
     },
-  {
+   {
         id: "GR0204XX",
         group: ProductGroup.HomeCleaning,
         name: "HeiQ Synbio Alerjen Sprey",
@@ -242,7 +242,7 @@ var products = [
         isAvailable: true,
         bullets: ["Bu çok yönlü sinbiyotik temizlik spreyi, yüzeyleri ve ortamı faydalı bakterilerle kolonize eder.", "Probiyotikler; toz akarı kalıntıları, polen, evcil hayvan tüyü/deri döküntüsü, idrar ve tükürük gibi yaygın cansız alerjenlerin azaltılmasına yardımcı olur.", "Püskürtme sonrasında günler boyunca aktif kalmaya devam ederek uzun süreli etki sağlar.", "Mikroskobik düzeyde derin temizlik sayesinde en küçük kir partiküllerine kadar etki eder.", "Hoş olmayan kokuları giderir ve yeniden oluşumunu önler.", "Çoğu kumaş ve halı için güvenlidir. Deri, süet ve ipek üzerinde kullanımı önerilmez.", "Püskürtme sonrasında günler boyunca etki göstermeye devam eder.", "Patentli HeiQ Synbio Teknolojisi içerir.", "180 ml / 6 oz.", "Belçika’da üretilmiştir.",] 
     },
-  {
+   {
         id: "GR0203XX",
         group: ProductGroup.HomeCleaning,
         name: "HeiQ VivoTech Temizlik Spreyi",
@@ -252,7 +252,7 @@ var products = [
         isAvailable: true,
         bullets: ["Son derece etkili temizleme gücü.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Hoş olmayan koku riskini azaltır.", "Sağlıklı bir mikroflora oluşumunu destekler.",] 
     },
-  {
+   {
         id: "GR0205XX",
         group: ProductGroup.HomeCleaning,
         name: "HeiQ VivoTech Tuvalet Jeli (Toilet Gel)",
