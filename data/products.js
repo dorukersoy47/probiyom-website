@@ -33,7 +33,7 @@ ProductGroupIntroText[ProductGroup.ProfessionalCleaning] = {
   heading: "Geleneksel kimyasal temizlik ürünleri ve dezenfektanlar yüzeyleri ilk bakışta temizlese de;",
   bullets: [
     "Dengeli bir mikrobiyom oluşmasını sağlamaz",
-    "Kullanım sıklığı arttıkça, dirençli bakteri oluşumunu teşvik eder",
+    "Kullanım sıklığı arttıkça, mikrobiyom dengesini olumsuz etkileyebilir",
     "Yüzeylerdeki çiziklere nüfuz etmekte zorlanır. Organik kirlerin barındığı, kötü koku kaynağı olan yağlı ve kirli tabakayı tamamen ortadan kaldıramaz",
     "Uzun süreli temizlik etkisi sağlamadığı için sık ve tekrarlayan temizlik ihtiyacı doğurur",
   ],
@@ -47,7 +47,7 @@ ProductGroupIntroText[ProductGroup.HomeCleaning] = {
   heading: "Geleneksel kimyasal temizlik ürünleri ve dezenfektanlar yüzeyleri ilk bakışta temizlese de; ",
   bullets: [
     "Dengeli bir mikrobiyom oluşmasını sağlamaz",
-    "Kullanım sıklığı arttıkça, dirençli bakteri oluşumunu teşvik eder",
+    "Kullanım sıklığı arttıkça, mikrobiyom dengesini olumsuz etkileyebilir",
     "Yüzeylerdeki çiziklere nüfuz etmekte zorlanır. Organik kirlerin barındığı, kötü koku kaynağı olan yağlı ve kirli tabakayı tamamen ortadan kaldıramaz",
     "Uzun süreli temizlik etkisi sağlamadığı için sık ve tekrarlayan temizlik ihtiyacı doğurur",
   ],
@@ -58,12 +58,12 @@ ProductGroupIntroText[ProductGroup.HomeCleaning] = {
 };
 
 ProductGroupIntroText[ProductGroup.PersonalCare] = {
-  heading: "İnsan cildi, sağlığımızın korunması ve sürdürülmesinde hayati rol oynayan trilyonlarca mikroorganizmaya ev sahipliği yapar. Dengeli bir cilt mikrobiyomu, cildin doğal savunma mekanizmalarını güçlendirmeye, nem dengesini düzenlemeye ve gözle görülür yenilenme süreçlerini desteklemeye yardımcı olur.",
+  heading: "İnsan cildi, sağlığımızın korunması ve sürdürülmesinde hayati rol oynayan trilyonlarca mikroorganizmaya ev sahipliği yapar. Dengeli bir cilt mikrobiyomu, cildin nem dengesini desteklemeye ve doğal yenilenme süreçlerine katkıda bulunmaya yardımcı olur",
   bullets: [
-    "Probiyotik cilt bakımı, bu dengeyi yeniden kazandırmak ve sürdürmek amacıyla faydalı bakteriler sağlar; böylece sağlıklı ve dirençli bir cilt için uzun süreli destek sunar",    
+    "Probiyotik cilt bakımı, bu dengeyi desteklemek amacıyla faydalı mikroorganizmalar içerir ve cildin doğal dengesinin sürdürülmesine uzun süreli katkıda bulunur.",    
     "Hücre lizatı (lysis: hücre duvarının parçalanması) veya ısıyla devra dışı bırakılmış probiyotiklerin aksine, spor bazlı formülasyonlarımız canlı probiyotiklerin korunmasını sağlar ve yalnızca cilde uygulandığında aktive olmalarına imkân tanır",
   ],
-  paragraph: "Bu sayede, geleneksel kişisel bakım ürünlerinden faklı olarak daha kalıcı ve doğal dengeyi koruma açısından üstünlük sağlar. ",
+  paragraph: "Bu sayede, doğal dengeyi destekleyen kalıcı bir etki sunar.",
   warning: "",
   imageDir: "images/products_pages/pp_3.png",
   imageName: "Personal Care Products",
@@ -100,10 +100,10 @@ ProductGroupIntroText[ProductGroup.IndustrialWaterTreatment] = {
 };
 
 ProductGroupIntroText[ProductGroup.Livestock] = {
-  heading: "Doğada tasarlandı, bilimle mükemmelleştirildi. Hayvan Çiftlikleri ve barınaklarında, Hayvanların toplu halde bulunduğu kapalı yerlerde, dengeli bir mikrobiyal ortamın oluşmasına, hijyenin iyileştirilmesine, organik birikimin azaltılmasına ve hayvanların genel sağlığının desteklenmesine yardımcı olur.",
+  heading: "Doğada tasarlandı, bilimle mükemmelleştirildi. Hayvan Çiftlikleri ve barınaklarında, Hayvanların toplu halde bulunduğu kapalı yerlerde, dengeli bir mikrobiyal ortamın oluşmasına, hijyenin desteklenmesine, organik birikimin azaltılmasına ve hayvanların yaşam alanlarında dengeli bir mikrobiyomun korunmasına yardımcı olur." .",
   bullets: [
     "Probiyotik çiftlik ve Ahır hijyen çözümleri, faydalı mikrobiyal aktiviteyi teşvik ederek amonyak seviyelerinin düşürülmesini sağlar",    
-    "Güçlü ve verimli hayvanlar",
+    "Dengeli mikrobiyom ortamında barındırılan hayvanlar",
     "Yüzeylerde dengeli bir mikrobiyom",
     "Minimum koku (özellikle amonyak kaynaklı)",
     "Daha düşük nem seviyesi",
@@ -125,7 +125,7 @@ ProductGroupIntroText[ProductGroup.Pet] = {
     "Evcil hayvanınızın tüy yapısındaki proteinleri, tozu ve organik kirleri temizler", 
     "Evcil hayvanınızın üzerinde ve yaşam alanında dengeli bir mikrobiyomun oluşmasını sağlar",
   ],
-  paragraph: "Evcil hayvanınızı ve yaşam alanını dezenfektanlar, sert kimyasallar veya sabunlarla değil, probiyotiklerle temizleyin! Doğada tasarlandı, bilimle mükemmelleştirildi. HeiQ Synbio Pet, evcil hayvanınızın deri ve tüy yapısında ve yaşam ortamında dengeli bir mikrobiyomun korunmasına yardımcı olur.HeiQ Synbio Pet’in probiyotik ve prebiyotiklerden oluşan benzersiz formülü, evcil hayvanlardan kaynaklanan istenmeyen kokuların azaltılmasına ve yeniden oluşumunun önlenmesine yardımcı olur. Aynı zamanda sağlıklı bir deri ve parlak, bakımlı bir tüy görünümü için uygun bir ortam oluşturur.",
+  paragraph: "Evcil hayvanınızı ve yaşam alanını dezenfektanlar, sert kimyasallar veya sabunlarla değil, probiyotiklerle temizleyin! Doğada tasarlandı, bilimle mükemmelleştirildi. HeiQ Synbio Pet, evcil hayvanınızın deri ve tüy yapısında ve yaşam ortamında dengeli bir mikrobiyomun korunmasına yardımcı olur.HeiQ Synbio Pet’in probiyotik ve prebiyotiklerden oluşan benzersiz formülü, evcil hayvanlardan kaynaklanan istenmeyen kokuların azaltılmasına ve yeniden oluşumunun önlenmesine yardımcı olur. Aynı zamanda dengeli bir deri mikrobiyomu ve parlak, bakımlı bir tüy görünümü için uygun bir ortam oluşturur.",
   warning: "",
   imageDir: "images/products_pages/pp_7.png",
   imageName: "PET Products",
@@ -140,7 +140,7 @@ var products = [
         imageDir: "images/products/p_101.jpg",
         imageName: "Product 101",
         isAvailable: true,
-        bullets: ["Yüksek performanslı temizlik.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Kötü koku oluşma riskini azaltır.", "Sağlıklı bir mikroflorayı destekler."]
+        bullets: ["Yüksek performanslı temizlik.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Kötü koku oluşma riskini azaltır.", "Dengeli bir mikrofloranın oluşumunu destekler."]
     },
     {
         id: "GR0102XX",
@@ -150,7 +150,7 @@ var products = [
         imageDir: "images/products/p_102.jpg",
         imageName: "Product 102",
         isAvailable: true,
-        bullets: ["Çok güçlü temizleme etkisi yaratır", "Tüm yıkanabilir yüzeylerde güvenle kullanılabilir.", "Kötü koku oluşma riskini azaltır.", "Sağlıklı bir mikrofloranın oluşumunu destekler."]
+        bullets: ["Çok güçlü temizleme etkisi yaratır", "Tüm yıkanabilir yüzeylerde güvenle kullanılabilir.", "Kötü koku oluşma riskini azaltır.", "Dengeli bir mikrofloranın oluşumunu destekler."]
     },
     {
         id: "GR0103XX",
@@ -160,7 +160,7 @@ var products = [
         imageDir: "images/products/p_103.jpg",
         imageName: "Product 103",
         isAvailable: true,
-        bullets: ["Yüksek etkili temizlik gücü.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Kötü koku oluşma riskini azaltır.", "Sağlıklı bir mikrofloranın oluşumunu destekler.", "İz ve leke bırakmadan temizlik sağlar.", "Nötr pH"]
+        bullets: ["Yüksek etkili temizlik gücü.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Kötü koku oluşma riskini azaltır.", "Dengeli bir mikrofloranın oluşumunu destekler.", "İz ve leke bırakmadan temizlik sağlar.", "Nötr pH"]
     },
     {
         id: "GR0104XX",
@@ -170,7 +170,7 @@ var products = [
         imageDir: "images/products/p_104.jpg",
         imageName: "Product 104",
         isAvailable: true,
-        bullets: ["Yüksek etkili temizlik gücü.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Kötü koku oluşma riskini azaltır.", "Sağlıklı bir mikrofloranın oluşumunu destekler.", "İz ve leke bırakmadan temizlik sağlar.", "Nötr pH"]
+        bullets: ["Yüksek etkili temizlik gücü.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Kötü koku oluşma riskini azaltır.", "Dengeli bir mikrofloranın oluşumunu destekler.", "İz ve leke bırakmadan temizlik sağlar.", "Nötr pH"]
     },
     {
         id: "GR0105XX",
@@ -190,7 +190,7 @@ var products = [
         imageDir: "images/products/p_106.jpg",
         imageName: "Product 106",
         isAvailable: true,
-        bullets: ["Genellikle fırçalama veya ovma gerektirmeden, hızlı ve etkili temizlik sağlar.", "Bulunduğu ortamda sağlıklı ve dengeli bir mikroflora oluşumunu destekler.", "Kalıcı Probiyotik etkisi sayesinde, çoğu durumda dezenfeksiyon ihtiyacını ortadan kaldırır.", "Zamandan tasarruf sağlayan, ekonomik bir kullanım sunar.", "Kalıcı etkisi sayesinde atık su üzerinde olumlu bir etki yaratır."] 
+        bullets: ["Genellikle fırçalama veya ovma gerektirmeden, hızlı ve etkili temizlik sağlar.", "Bulunduğu ortamda dengeli bir mikroflora oluşumunu destekler.", "Kalıcı probiyotik etkisi sayesinde yüzeylerde uzun süreli doğal denge sağlar.", "Zamandan tasarruf sağlayan, ekonomik bir kullanım sunar.", "Kalıcı etkisi sayesinde atık su üzerinde olumlu bir etki yaratır."] 
     },
         {
         id: "GR0107XX",
@@ -200,7 +200,7 @@ var products = [
         imageDir: "images/products/p_107.jpg",
         imageName: "Product 107",
         isAvailable: true,
-        bullets: ["Hızlı ve zahmetsiz temizlik sağlar.", "Kireç oluşumunu önler.", "İz ve leke bırakmadan temizler.", "Nötr pH", "Kötü koku, biyofilm, alerjen ve zararlı mikroorganizmaların oluşma riskini önemli ölçüde azaltır.", "Ferah hoş bir koku bırakır."] 
+        bullets: ["Hızlı ve zahmetsiz temizlik sağlar.", "Kireç oluşumunu önler.", "İz ve leke bırakmadan temizler.", "Nötr pH", "Kötü koku, biyofilm ve alerjen oluşum riskini önemli ölçüde azaltır ve mikrobiyom dengesini destekler.", "Ferah hoş bir koku bırakır."] 
     },
         {
         id: "GR0108XX",
@@ -210,7 +210,7 @@ var products = [
         imageDir: "images/products/p_108.jpg",
         imageName: "Product 108",
         isAvailable: true,
-        bullets: ["Koku oluşumunu önler ve temizlenen yüzeylerde sağlıklı bir mikroflora oluşturur", "Jel formülü sayesinde yüzeye daha uzun süre tutunur, böylece daha yüksek verimlilik sağlar", "Uzun süren, kalıcı, ferah bir koku bırakır"] 
+        bullets: ["Koku oluşumunu önler ve temizlenen yüzeylerde dengeli bir mikroflora oluşturur", "Jel formülü sayesinde yüzeye daha uzun süre tutunur, böylece daha yüksek verimlilik sağlar", "Uzun süren, kalıcı, ferah bir koku bırakır"] 
     },
  {
         id: "GR0201XX",
