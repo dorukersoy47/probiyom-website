@@ -282,4 +282,14 @@ var products = [
         isAvailable: true,
         bullets: ["Yüzeylerde dengeli bir mikrobiyom oluşumunu destekler.", "Optimal hijyenin sağlanmasına yardımcı olur.", "Yüzeylerdeki alerjenlerin azaltılmasına katkıda bulunur.", "Organik kaynaklı kokuları kontrol eder ve azaltır.", "100% doğal aktif bileşenler içerir.", "PCB ve VOC içermez.",] 
     },
+  {
+        id: "GR0402XX",
+        group: ProductGroup.ColdMistSpraying,
+        name: "HeiQ Vivotech Araç Klima Temizleyici (Airco Cleaner)",
+        description: "HeiQ VivoTech Araç Klima Temizleyici (Airco Cleaner) araç klima sistemleri için geliştirilmiş probiyotik bir temizleyicidir. Ürünün etkisi, yüzey aktif maddeler ile probiyotiklerin birleşimine dayanır. Bu kombinasyon, uzun süre boyunca enzim üretimini destekler. Oluşan enzimler organik kirleri parçalayarak yüzeyden ayrılmalarını sağlar ve kirlerin çözünmüş veya kolloidal bir forma geçmesine yardımcı olur. Böylece kirler mekanik ve/veya fiziksel yöntemlerle daha kolay uzaklaştırılabilir.",
+        imageDir: "images/products/p_402.jpg",
+        imageName: "Product 402",
+        isAvailable: false,
+        bullets: ["İstenmeyen kokuların oluşmasını engeller.", "Alerjen oluşma riskini azaltır.", "Verimli ve uzun süre etkilidir (uygulama başına yaklaşık 6 ay).", "Kullanımı son derece kolaydır (4–5 dakika).", "Mikroskobik düzeyde derin temizlik sağlar.", "Tüm klima sistemleri ve araç içlerinde güvenlidir.", "İnsanlar, hayvanlar ve çevre için güvenlidir.",] 
+    },
 ];
