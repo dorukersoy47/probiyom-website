@@ -275,7 +275,7 @@ var products = [
    {
         id: "GR0301XX",
         group: ProductGroup.PersonalCare,
-        name: "HeiQ Synbio Duş Jeli (SShower Gel)",
+        name: "HeiQ Synbio Duş Jeli (Shower Gel)",
         description: "HeiQ Synbio Duş Jeli, nazik ve uzun süreli günlük vücut bakımı için geliştirilmiş yumuşak formüllü bir duş jelidir. Patentli probiyotik ve prebiyotik kombinasyonu sayesinde cilt mikroflorasının dengelenmesine yardımcı olur ve cildin ferah, temiz ve canlı hissetmesini sağlar",
         imageDir: "images/products/p_301.jpg",
         imageName: "Product 301",
