@@ -273,10 +273,20 @@ var products = [
         bullets: ["Hızlı ve zahmetsiz temizlik sağlar.", "Kireç oluşumunu önler.", "İz ve leke bırakmadan temizler.", "Nötr pH", "Kötü koku, biyofilm, alerjen ve zararlı mikroorganizmaların oluşma riskini önemli ölçüde azaltır.", "Ferah hoş bir koku bırakır.",] 
     },
    {
+        id: "GR0301XX",
+        group: ProductGroup.PersonalCare,
+        name: "HeiQ VivoTech Hijyen (Sanitary)",
+        description: "HeiQ VivoTech Hijyen (Sanitary) mikroorganizmalar temel alınarak geliştirilmiş, çevreye faydalı etki sağlayan güçlü bir probiyotik temizlik ürünüdür. Ürünün etkinliği, yüzeyel aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal  hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar.",
+        imageDir: "images/products/p_301.jpg",
+        imageName: "Product 301",
+        isAvailable: true,
+        bullets: ["Cilt mikroflorasının dengesinin yeniden sağlanmasına ve korunmasına yardımcı olur.", "Sağlıklı cilt bariyerinin korunmasını destekler.", "Kuruluk, kızarıklık ve rahatsızlık görünümünün azalmasına katkı sağlayarak daha sağlıklı ve dayanıklı görünen bir cilt görünümünü destekler.", "Kullanım sonrasında 12 saate kadar istenmeyen vücut kokularının azalmasına yardımcı olur.", "Cildi yumuşatır, besler ve nemlendirir.", "Dağılmayan ve dengeli köpük oluşturur.",] 
+    },
+   {
         id: "GR0401XX",
         group: ProductGroup.ColdMistSpraying,
-        name: "HeiQ Synbio Derin Sisleme (Deep Mist)",
-        description: "HeiQ Synbio Derin Sisleme (Deep Mist), ultrasonik sisleme cihazlarıyla kullanılmak üzere geliştirilmiş sinbiyotik bir temizlik sıvısı ve çözümüdür. Bu cihazlar, sıvıyı ultrasonik titreşimler yardımıyla çok ince partiküller halinde ortama dağıtarak tüm yüzeylere eşit şekilde ulaşmasını sağlar. Formül içeriğindeki probiyotikler, yüzeylerde dengeli bir mikrobiyomun oluşmasını destekler ve uzun süreli bir temizlik etkisi sunar.",
+        name: "HeiQ Synbio Duş Jeli (Shower Gel)",
+        description: "HeiQ Synbio Duş Jeli, nazik ve uzun süreli günlük vücut bakımı için geliştirilmiş yumuşak formüllü bir duş jelidir. Patentli probiyotik ve prebiyotik kombinasyonu sayesinde cilt mikroflorasının dengelenmesine yardımcı olur ve cildin ferah, temiz ve canlı hissetmesini sağlar",
         imageDir: "images/products/p_401.jpg",
         imageName: "Product 401",
         isAvailable: true,
