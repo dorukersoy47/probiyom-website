@@ -272,4 +272,14 @@ var products = [
         isAvailable: true,
         bullets: ["Hızlı ve zahmetsiz temizlik sağlar.", "Kireç oluşumunu önler.", "İz ve leke bırakmadan temizler.", "Nötr pH", "Kötü koku, biyofilm, alerjen ve zararlı mikroorganizmaların oluşma riskini önemli ölçüde azaltır.", "Ferah hoş bir koku bırakır.",] 
     },
+   {
+        id: "GR0401XX",
+        group: ProductGroup.ColdMistSpraying,
+        name: "HeiQ Synbio Derin Sisleme (Deep Mist)",
+        description: "HeiQ Synbio Derin Sisleme (Deep Mist), ultrasonik sisleme cihazlarıyla kullanılmak üzere geliştirilmiş sinbiyotik bir temizlik sıvısı ve çözümüdür. Bu cihazlar, sıvıyı ultrasonik titreşimler yardımıyla çok ince partiküller halinde ortama dağıtarak tüm yüzeylere eşit şekilde ulaşmasını sağlar. Formül içeriğindeki probiyotikler, yüzeylerde dengeli bir mikrobiyomun oluşmasını destekler ve uzun süreli bir temizlik etkisi sunar.",
+        imageDir: "images/products/p_401.jpg",
+        imageName: "Product 401",
+        isAvailable: true,
+        bullets: ["Yüzeylerde dengeli bir mikrobiyom oluşumunu destekler.", "Optimal hijyenin sağlanmasına yardımcı olur.", "Yüzeylerdeki alerjenlerin azaltılmasına katkıda bulunur.", "Organik kaynaklı kokuları kontrol eder ve azaltır.", "100% doğal aktif bileşenler içerir.", "PCB ve VOC içermez.",] 
+    },
 ];
