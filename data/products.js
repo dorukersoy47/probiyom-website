@@ -155,7 +155,7 @@ var products = [
     {
         id: "GR0103XX",
         group: ProductGroup.ProfessionalCleaning,
-        name: "HeiQ VivoTech Yüzey (Floor)",
+        name: "HeiQ VivoTech Zemin (Floor)",
         description: "Probiyotik bazlı bir yer temizleyicisidir. Ürünün etkinliği, yüzeyel aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal[1] hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar. Dengeli bir mikrobiyomun [2] oluşmasını destekleyerek kötü koku ve alerjen oluşma riskini azaltır.",
         imageDir: "images/products/p_103.jpg",
         imageName: "Product 103",
@@ -165,7 +165,7 @@ var products = [
     {
         id: "GR0104XX",
         group: ProductGroup.ProfessionalCleaning,
-        name: "HeiQ VivoTech Yüzey Makina (Scrub) Ecolabel",
+        name: "HeiQ VivoTech Zemin Makina (Scrub) Ecolabel",
         description: "HeiQ VivoTech Yüzey Makina (Scrub) Ecolabel, tüm zemin yıkama makinelerinde kullanılabilen, probiyotik bazlı bir yer temizleyicidir. Ürünün etkinliği, yüzeyel aktif maddeler (sürfaktanlar) ile probiyotiklerin birleşiminin sürekli olarak enzim üretmelerine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır, çözünmüş veya kolloidal  hale getirir ve böylece kirlerin mekanik ve/veya fiziksel olarak daha kolay uzaklaştırılmasını ve temizlenmesini sağlar. Dengeli bir mikrobiyomun [2] oluşmasını destekleyerek kötü koku ve alerjen oluşma riskini azaltır.",
         imageDir: "images/products/p_104.jpg",
         imageName: "Product 104",
