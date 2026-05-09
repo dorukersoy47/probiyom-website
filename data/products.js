@@ -320,7 +320,6 @@ var products = [
         imageDir: "images/products/p_702.jpg",
         imageName: "Product 702",
         isAvailable: true,
-        bullets: ["Tüylere faydalı bir mikroflora kazandırarak uzun süreli korumaya yardımcı olur.", "Tüylerde hoş bir his ve bakım etkisi bırakır"
-,] 
+        bullets: ["Tüylere faydalı bir mikroflora kazandırarak uzun süreli korumaya yardımcı olur.", "Tüylerde hoş bir his ve bakım etkisi bırakır",] 
     },
 ];
