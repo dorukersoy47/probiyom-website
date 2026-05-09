@@ -322,4 +322,14 @@ var products = [
         isAvailable: true,
         bullets: ["Tüylere faydalı bir mikroflora kazandırarak uzun süreli korumaya yardımcı olur.", "Tüylerde hoş bir his ve bakım etkisi bırakır",] 
     },
+   {
+        id: "GR0703XX",
+        group: ProductGroup.Pet,
+        name: "HeiQ Synbio Pet Sprey YEDEK (refil)",
+        description: "HeiQ Synbio Pet Sprey, Yedek kartuşudur. Tek başına kullanılmaz.Pet spreyiniz Başlığı özeldir ve çok kullanımktır. Sadece Yedek (refil) sprey alarak kullanmaya devam edebilirsiniz. Ekonomik açıdan avantaj sağlar.",
+        imageDir: "images/products/p_703.jpg",
+        imageName: "Product 703",
+        isAvailable: true,
+        bullets: ["Pet Spreyin başlığını çıkarın.", "Yedek (refil) Spreyin başlığını çıkarıp, Spreyin başlığını takın.", "Çevirmeli kapak", "Ekonomik",] 
+    },
 ];
