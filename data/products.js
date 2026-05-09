@@ -302,6 +302,26 @@ var products = [
         isAvailable: false,
         bullets: ["İstenmeyen kokuların oluşmasını engeller.", "Alerjen oluşma riskini azaltır.", "Verimli ve uzun süre etkilidir (uygulama başına yaklaşık 6 ay).", "Kullanımı son derece kolaydır (4–5 dakika).", "Mikroskobik düzeyde derin temizlik sağlar.", "Tüm klima sistemleri ve araç içlerinde güvenlidir.", "İnsanlar, hayvanlar ve çevre için güvenlidir.",] 
     },
+       {
+        id: "GR0501XX",
+        group: ProductGroup.IndustrialWaterTreatment,
+        name: "HeiQ VivoTech Su Arıtma (Endüstriyel)",
+        description: "HeiQ VivoTech Su Arıtma, Göletlerin (ör. Koi göletleri, yüzme göletleri, süs havuzları, jakuziler vb.) temizliği ve bakımında kullanılan probiyotik bir konsantredir. Filtreleri tıkayan ve suyun bulanıklaşmasına neden olan organik madde yapılarını hedef alarak suyun berraklığının ve temizliğinin yeniden sağlanmasına yardımcı olur. Etki mekanizması, yüzey aktif maddeler ve probiyotiklerin kombinasyonuna dayanır. Sürekli ürettikleri enzimlerle, Organik kir ve atıkları parçalayarak, mekanik veya fiziksel yöntemlerle daha kolay uzaklaştırılmalarını sağlar.",
+        imageDir: "images/products/p_501.jpg",
+        imageName: "Product 501",
+        isAvailable: true,
+        bullets: ["Biyolojik olarak parçalanabilir", "Korozif değildir", "Yanıcı değildir", "Köpük oluşturmaz", "Uçucu değildir", "Nötr formülasyona sahiptir", "Tüm gölet tiplerinde güvenle kullanılabilir",] 
+    }, 
+       {
+        id: "GR0502XX",
+        group: ProductGroup.IndustrialWaterTreatment,
+        name: "HeiQ VivoTech Su Arıtma (Endüstriyel) HD",
+        description: "HeiQ VivoTech Su Arıtma HD, Büyük Endüstriyel Su sistemlerinin temizliği ve bakımı için geliştirilmiş Probiyotikli konsantre güçlü bir üründür. Etki mekanizması, yüzey aktif maddeler ile probiyotiklerin kombinasyonuna dayanır. Bu yapı, sürekli olarak enzim üretimini destekler. Oluşan enzimler organik maddeleri parçalayarak yüzeylerden ayrılmasını sağlar ve çözünmüş veya kolloidal forma dönüştürür. Böylece kirler mekanik veya fiziksel yöntemlerle daha kolay uzaklaştırılabilir.",
+        imageDir: "images/products/p_502.jpg",
+        imageName: "Product 502",
+        isAvailable: true,
+        bullets: ["Kapalı Devre Su Sistemi veya Su Rezervuarı", "Açık Devre Su Sistemi", "Yoğun Kirlenmiş Sular",] 
+    },
   {
         id: "GR0701XX",
         group: ProductGroup.Pet,
