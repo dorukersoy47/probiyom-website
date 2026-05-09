@@ -302,4 +302,25 @@ var products = [
         isAvailable: false,
         bullets: ["İstenmeyen kokuların oluşmasını engeller.", "Alerjen oluşma riskini azaltır.", "Verimli ve uzun süre etkilidir (uygulama başına yaklaşık 6 ay).", "Kullanımı son derece kolaydır (4–5 dakika).", "Mikroskobik düzeyde derin temizlik sağlar.", "Tüm klima sistemleri ve araç içlerinde güvenlidir.", "İnsanlar, hayvanlar ve çevre için güvenlidir.",] 
     },
+  {
+        id: "GR0701XX",
+        group: ProductGroup.Pet,
+        name: "HeiQ Synbio Pet Sprey",
+        description: "HeiQ Synbio Pet Sprey, evcil hayvanların tüy, kepek (dander), tükürük ve idrar kaynaklı koku ve alerjenlerin azaltılmasına yardımcı olmak üzere geliştirilmiş sinbiyotik bir spreydir.Hem evcil hayvanların üzerinde hem de yaşam alanlarında güvenle kullanılabilir",
+        imageDir: "images/products/p_701.jpg",
+        imageName: "Product 701",
+        isAvailable: true,
+        bullets: ["Evcil hayvanlardan kaynaklanan koku ve alerjenleri parçalamaya yardımcı olur.", "Uygulama sonrasında günler boyunca etki ve ferahlık sağlamaya devam eder.", "Geleneksel koku gidericilere doğal bir alternatiftir.", "Evcil hayvanın deri ve tüylerinde dengeli bir mikrobiyomun korunmasına destek olur.", "Gıda sınıfı probiyotikler içerir; hayvanların tüylerini yalaması güvenlidir.", "Sürekli ve ince püskürtme sağlayan sprey başlığı ile homojen uygulama.",] 
+    },
+  {
+        id: "GR0702XX",
+        group: ProductGroup.Pet,
+        name: "HeiQ Synbio Pet Şampuanı",
+        description: "HeiQ Synbio Pet Şampuanı, hayvanlar için geliştirilmiş sinbiyotik (pre- ve probiyotik içerikli) bir şampuandır. Tüy ve deri üzerinde temizlik sağlayarak alerjenleri azaltmaya ve istenmeyen kokuların giderilmesine yardımcı olur. Formülü hem hayvanlar hem de insanlar için güvenlidir.Sağlıklı bir tüy yapısı, hayvanın genel sağlığı açısından büyük önem taşır. Tüylerin kirli ve bakımsız olması; cilt problemlerine, alerjilere ve koku oluşumuna yol açabilir. Pet Shampoo içeriğindeki probiyotikler, hayvanın tüylerindeki kir ve alerjenleri aktif olarak parçalayarak uzaklaştırır; tüylerin temiz ve sağlıklı kalmasına destek olur. Böylece hayvan cildinde daha rahat hisseder ve kötü koku oluşumu azalır.Birçok hayvan cilt hassasiyetleri veya alerjiler yaşayabilmektedir. Tüyler; kir, alerjen ve zararlı mikroorganizmalar için birikim alanı olabilir. Bu nedenle HeiQ Chrisal tarafından geliştirilen bu sinbiyotik pet şampuan, tüylerin mümkün olan en temiz durumda kalmasını hedefler. Bu durum yalnızca hayvanın sağlığı için değil, aynı zamanda tüylerde bulunabilecek alerjenlere karşı hassasiyeti olan kişiler için de avantaj sağlar.İçeriğindeki probiyotikler %100 doğal kaynaklıdır ve çevresel dengenin korunmasına aktif katkıda bulunur",
+        imageDir: "images/products/p_702.jpg",
+        imageName: "Product 702",
+        isAvailable: true,
+        bullets: ["Tüylere faydalı bir mikroflora kazandırarak uzun süreli korumaya yardımcı olur.", "Tüylerde hoş bir his ve bakım etkisi bırakır"
+,] 
+    },
 ];
