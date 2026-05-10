@@ -350,7 +350,7 @@ var products = [
         imageDir: "images/products/p_603.jpg",
         imageName: "Product 603",
         isAvailable: true,
-        bullets: ["éBirçok temiz su hatlarında biyofilm oluşumu, tıkanmalara, verimin düşmesine ve istenmeyen patojenik mikroorganizmaların gelişmesine neden olabilir. HeiQ VivoTech Su Plus (Plus Water), biyofilmin bağlayıcı matris bileşenlerini hedef alarak boruların, pompaların ve rezervuarların temizlenmesini ve daha uzun süre temiz kalmasını sağlar.", "Nötr formülasyonu sayesinde tüm su tesisatlarında güvenle kullanılabilir ve sistemlere zarar vermez.",] 
+        bullets: ["Birçok temiz su hatlarında biyofilm oluşumu, tıkanmalara, verimin düşmesine ve istenmeyen patojenik mikroorganizmaların gelişmesine neden olabilir. HeiQ VivoTech Su Plus (Plus Water), biyofilmin bağlayıcı matris bileşenlerini hedef alarak boruların, pompaların ve rezervuarların temizlenmesini ve daha uzun süre temiz kalmasını sağlar.", "Nötr formülasyonu sayesinde tüm su tesisatlarında güvenle kullanılabilir ve sistemlere zarar vermez.",] 
     },
        {
         id: "GR0701XX",
