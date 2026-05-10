@@ -252,7 +252,7 @@ var products = [
         isAvailable: true,
         bullets: ["Son derece etkili temizleme gücü.", "Tüm yıkanabilir yüzeyler için güvenlidir.", "Hoş olmayan koku riskini azaltır.", "Sağlıklı bir mikroflora oluşumunu destekler.",] 
     },
-   {
+       {
         id: "GR0205XX",
         group: ProductGroup.HomeCleaning,
         name: "HeiQ VivoTech Tuvalet Jeli (Toilet Gel)",
@@ -262,7 +262,7 @@ var products = [
         isAvailable: true,
         bullets: ["Koku oluşumunu önler ve temizlenen yüzeylerde sağlıklı bir mikroflora oluşturur.", "Jel formülü sayesinde yüzeye daha uzun süre tutunur, böylece daha yüksek verimlilik sağlar.", "Uzun süren, kalıcı, ferah bir koku bırakır.",] 
     },
-   {
+       {
         id: "GR0206XX",
         group: ProductGroup.HomeCleaning,
         name: "HeiQ VivoTech Hijyen (Sanitary)",
@@ -272,7 +272,7 @@ var products = [
         isAvailable: true,
         bullets: ["Hızlı ve zahmetsiz temizlik sağlar.", "Kireç oluşumunu önler.", "İz ve leke bırakmadan temizler.", "Nötr pH", "Kötü koku, biyofilm, alerjen ve zararlı mikroorganizmaların oluşma riskini önemli ölçüde azaltır.", "Ferah hoş bir koku bırakır.",] 
     },
-   {
+       {
         id: "GR0301XX",
         group: ProductGroup.PersonalCare,
         name: "HeiQ Synbio Duş Jeli (Shower Gel)",
@@ -280,6 +280,16 @@ var products = [
         imageDir: "images/products/p_301.jpg",
         imageName: "Product 301",
         isAvailable: true,
+        bullets: ["Cilt mikroflorasının dengesinin yeniden sağlanmasına ve korunmasına yardımcı olur.", "Sağlıklı cilt bariyerinin korunmasını destekler.", "Kuruluk, kızarıklık ve rahatsızlık görünümünün azalmasına katkı sağlayarak daha sağlıklı ve dayanıklı görünen bir cilt görünümünü destekler.", "Kullanım sonrasında 12 saate kadar istenmeyen vücut kokularının azalmasına yardımcı olur.", "Cildi yumuşatır, besler ve nemlendirir.", "Dağılmayan ve dengeli köpük oluşturur.",] 
+    },
+      {
+        id: "GR0302XX",
+        group: ProductGroup.PersonalCare,
+        name: "HeiQ Synbio Cilt Yenileyici Bakım Kremi",
+        description: "HeiQ Synbio Duş Jeli, probiyotikler ve prebiyotikler içeren yenilikçi bir cilt kremidir. Cildi nazikçe ferahlatır, yumuşatır, nemlendirir ve dengeli bir cilt mikrobiyomunun oluşmasına yardımcı olur. Kadınlar, erkekler ve çocuklar için uygundur. Günlük kullanım için geliştirilmiştir; cilt mikrobiyom çeşitliliğinin korunmasına ve sağlıklı görünümlü, dayanıklı bir cilt bariyerinin oluşmasına yardımcı olur.",
+        imageDir: "images/products/p_302.jpg",
+        imageName: "Product 302",
+        isAvailable: false,
         bullets: ["Cilt mikroflorasının dengesinin yeniden sağlanmasına ve korunmasına yardımcı olur.", "Sağlıklı cilt bariyerinin korunmasını destekler.", "Kuruluk, kızarıklık ve rahatsızlık görünümünün azalmasına katkı sağlayarak daha sağlıklı ve dayanıklı görünen bir cilt görünümünü destekler.", "Kullanım sonrasında 12 saate kadar istenmeyen vücut kokularının azalmasına yardımcı olur.", "Cildi yumuşatır, besler ve nemlendirir.", "Dağılmayan ve dengeli köpük oluşturur.",] 
     },
    {
@@ -290,7 +300,7 @@ var products = [
         imageDir: "images/products/p_401.jpg",
         imageName: "Product 401",
         isAvailable: true,
-        bullets: ["Yüzeylerde dengeli bir mikrobiyom oluşumunu destekler.", "Optimal hijyenin sağlanmasına yardımcı olur.", "Yüzeylerdeki alerjenlerin azaltılmasına katkıda bulunur.", "Organik kaynaklı kokuları kontrol eder ve azaltır.", "100% doğal aktif bileşenler içerir.", "PCB ve VOC içermez.",] 
+        bullets: ["Kremi temiz ve kuru cilde ince bir tabaka halinde uygulayın.", "En iyi sonuçlar için, günlük kullanılması önerilir.", "Kuruluk veya hassasiyet belirtileri gösteren bölgelere günde birkaç kez uygulanabilir.",] 
     },
   {
         id: "GR0402XX",
