@@ -322,7 +322,37 @@ var products = [
         isAvailable: true,
         bullets: ["Kapalı Devre Su Sistemi veya Su Rezervuarı", "Açık Devre Su Sistemi", "Yoğun Kirlenmiş Sular",] 
     },
-  {
+       {
+        id: "GR0601XX",
+        group: ProductGroup.Livestock,
+        name: "HeiQ VivoTech Çiftlik Temizleyici (AHC)",
+        description: "HeiQ VivoTech Çiftlik Temizleyici (AHC), probiyotiklerle zenginleştirilmiş yüksek konsantrasyonlu köpüklü bir temizleyicidir. Seyreltilerek kullanıldığında tüm suya dayanıklı yüzeylerde uygulanabilir. HeiQ VivoTech Çiftlik Temizleyici (AHC), güçlü temizlik performansı sunarken aynı zamanda ortamda dengeli bir mikroflora oluşumunun korunmasına katkıda bulunur. Ürünün etkinliği; yüzey aktif maddeler ile uzun süre boyunca enzim üreten probiyotiklerin birleşimine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır ve çözünmüş veya kolloidal hale getirir. Böylece kirlerin mekanik ve/veya fiziksel olarak uzaklaştırılması daha kolay hale gelir",
+        imageDir: "images/products/p_601.jpg",
+        imageName: "Product 601",
+        isAvailable: true,
+        bullets: ["Ekonomik kullanım sağlar.", "Kötü kokuların oluşumunu önlemeye yardımcı olur.", "Yüzeylerde sağlıklı ve güvenli bir mikroflora oluşumunu destekler.", "Enfeksiyon riskinin azaltılmasına katkıda bulunur.", "Biyofilm oluşma riskini azaltmaya yardımcı olur",] 
+    },
+       {
+        id: "GR0602XX",
+        group: ProductGroup.Livestock,
+        name: "HeiQ VivoTech Çiftlik Ortam Dengeleyici (AHS)",
+        description: "HeiQ VivoTech Çiftlik Ortam Dengeleyici (AHS), probiyotiklerle zenginleştirilmiş konsantre bir sisleme uygulama sıvısıdır. HeiQ VivoTech Çiftlik Ortam Dengeleyici (AHS), HeiQ VivoTech Çiftlik Temizleyicinin (AHC) etkinliğini destekler ve uzun süre devam etmesine katkıda bulunur. Ürün, tüm hayvan yaşam alanlarında güvenle kullanılabilir. Ürünün etkinliği; yüzey aktif maddeler ile sürekli enzim üreten probiyotiklerin birleşimine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır ve çözünmüş veya kolloidal hale dönüştürür. Böylece kirlerin mekanik ve/veya fiziksel olarak uzaklaştırılması daha kolay hale gelir.",
+        imageDir: "images/products/p_602.jpg",
+        imageName: "Product 602",
+        isAvailable: true,
+        bullets: ["HeiQ VivoTech Çiftlik Temizleyicinin (AHC) temizlik etkisinin daha uzun süre devam etmesine katkıda bulunur.", "Kötü kokuların oluşumunu önlemeye yardımcı olur.", "Yüzeylerde sağlıklı ve güvenli bir mikroflora oluşumunu destekler.", "Biyofilm oluşma riskini azaltmaya yardımcı olur",] 
+    },
+       {
+        id: "GR0603XX",
+        group: ProductGroup.Livestock,
+        name: "HeiQ VivoTech Su Plus (Plus Water)",
+        description: "HeiQ VivoTech Su Plus (Plus Water), Çiftliklerde bulunan temiz su hatlarının temizliği, biyofilmin uzaklaştırılması ve faydalı bakterilerin korunmasına yönelik geliştirilmiş güçlü bir probiyotik konsantredir. Suyun mikrobiyolojisini iyileştirerek, düşük su kalitesine bağlı oluşabilecek sorunların riskini azaltır. Ürünün etkinliği, yüzey aktif maddeler ile uzun süre boyunca enzim üreten probiyotiklerin birleşimine dayanır. Bu enzimler organik kirleri parçalayarak yüzeyden ayırır ve onları çözünmüş veya kolloidal bir hale getirir. Böylece kirlerin mekanik ve/veya fiziksel yöntemlerle uzaklaştırılması daha kolay hale gelir.",
+        imageDir: "images/products/p_603.jpg",
+        imageName: "Product 603",
+        isAvailable: true,
+        bullets: ["éBirçok temiz su hatlarında biyofilm oluşumu, tıkanmalara, verimin düşmesine ve istenmeyen patojenik mikroorganizmaların gelişmesine neden olabilir. HeiQ VivoTech Su Plus (Plus Water), biyofilmin bağlayıcı matris bileşenlerini hedef alarak boruların, pompaların ve rezervuarların temizlenmesini ve daha uzun süre temiz kalmasını sağlar.", "Nötr formülasyonu sayesinde tüm su tesisatlarında güvenle kullanılabilir ve sistemlere zarar vermez.",] 
+    },
+       {
         id: "GR0701XX",
         group: ProductGroup.Pet,
         name: "HeiQ Synbio Pet Sprey",
