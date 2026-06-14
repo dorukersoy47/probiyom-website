@@ -23,6 +23,8 @@ function Navbar(container) {
       { label: 'Ana Sayfa', href: '#home' },
       { label: 'Hakkımızda', href: '#about' },
       { label: 'Ürünlerimiz', href: '#products' },
+      { label: 'Blog', href: '#blog' },
+      { label: 'SSS', href: '#faq' },
       { label: 'İletişim', href: '#contact' },
     ];
 
@@ -62,6 +64,8 @@ function Navbar(container) {
               '</div>' +
             '</div>' +
           '</li>' +
+          '<li><a href="#blog">Blog</a></li>' +
+          '<li><a href="#faq">SSS</a></li>' +
           '<li><a href="#contact">İletişim</a></li>' +
         '</ul>' +
 

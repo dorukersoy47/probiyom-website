@@ -47,6 +47,12 @@ var Router = (function () {
       case 'contact':
         loadPage('pages/contact.html', initContactPage);
         break;
+      case 'faq':
+        loadPage('pages/faq.html', initFaqPage);
+        break;
+      case 'blog':
+        loadPage('pages/blog.html', initBlogPage);
+        break;
       default:
         loadPage('pages/not-found.html');
         break;
@@ -187,6 +193,20 @@ var Router = (function () {
         '<a href="' + SiteData.instagram + '" target="_blank" rel="noopener">Instagram</a>' +
         ' &middot; ' +
         '<a href="' + SiteData.x + '" target="_blank" rel="noopener">Twitter / X</a>';
+    }
+  }
+
+  function initFaqPage() {
+    var listEl = document.getElementById('faq-list');
+    if (listEl) {
+      FaqList(listEl, faqs);
+    }
+  }
+
+  function initBlogPage() {
+    var listEl = document.getElementById('blog-list');
+    if (listEl) {
+      BlogList(listEl, blogPosts);
     }
   }
 

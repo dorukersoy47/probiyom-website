@@ -8,11 +8,17 @@
   overflow: hidden;
   border-radius: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: grab;
+}
+
+.slider-frame.is-pressing,
+.slider-frame.is-pressing a {
+  cursor: grabbing;
 }
 
 .slider-frame a {
   display: block;
-  cursor: pointer;
+  cursor: grab;
   transition: opacity 0.2s;
 }
 

@@ -8,6 +8,7 @@ function ImageSlider(container, slides, durationMs) {
 
   var activeIndex = 0;
   var timer = null;
+  var isPaused = false;
 
   function render() {
     var slide = slides[activeIndex];
@@ -48,13 +49,35 @@ function ImageSlider(container, slides, durationMs) {
         goTo(idx);
       });
     }
+
+    /* Pause auto-advance while pressing on the slider frame */
+    var frame = container.querySelector('.slider-frame');
+    if (frame && slides.length > 1) {
+      var pressStart = function () {
+        isPaused = true;
+        clearTimeout(timer);
+        frame.classList.add('is-pressing');
+      };
+      var pressEnd = function () {
+        if (!isPaused) return;
+        isPaused = false;
+        frame.classList.remove('is-pressing');
+        scheduleNext();
+      };
+      frame.addEventListener('mousedown', pressStart);
+      frame.addEventListener('mouseup', pressEnd);
+      frame.addEventListener('mouseleave', pressEnd);
+      frame.addEventListener('touchstart', pressStart, { passive: true });
+      frame.addEventListener('touchend', pressEnd);
+      frame.addEventListener('touchcancel', pressEnd);
+    }
   }
 
   function goTo(idx) {
     activeIndex = idx;
     clearTimeout(timer);
     render();
-    scheduleNext();
+    if (!isPaused) scheduleNext();
   }
 
   function scheduleNext() {
