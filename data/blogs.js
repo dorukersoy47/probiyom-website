@@ -18,15 +18,16 @@ var blogPosts = [
     imageName: "Alerjen Sprey ile rahat nefes, ferah ortamlar "
   },
    {
-    title: "Endüstriyel Su sistemlerinde görünmeyen maliyet: Biyolfilm",
-    text: "Birçok endüstriyel su devresinde, soğutma kulelerinde ve atık su sistemlerinde performans kaybının temel nedeni biyofilm ve organik birikimlerdir. \n Peki ya çözüm daha fazla kimyasal kullanmak değilse? \n 🦠 Probiyotik bazlı su arıtma teknolojileri artık endüstriyel tesislerde gerçek sonuçlar üretiyor: \n ✅ Daha az biyosit kullanımı \n ✅ Daha düşük su ve enerji tüketimi \n ✅ Daha düşük bakım maliyetleri \n ✅ Daha temiz pompalar, filtreler ve boru hatları \n ✅ Koku oluşumunun azaltılması \n ✅ Daha sürdürülebilir operasyonlar \n Gerçek bir uygulamada; \n 🔹 Soğutma kulelerinde %40'a varan biyofilm oluşumu ortadan kaldırıldı.\n 🔹 5 yıldan uzun süre lamel temizliği ve değişimi ihtiyacı ortadan kalktı. \n 🔹 Lejyonella (Legionella) vakası görülmedi.(uygulama yapan merkezlerin bildirimi) \n🔹 Yıllık bakım ve İş Durması maliyetlerinde önemli tasarruf sağlandı. \n Endüstriyel su yönetiminin geleceği, daha fazla kimyasal kullanmak değil; mikroorganizmaların gücünden yararlanmak olabilir.",
-    imageDir: "images/blogs/blog_2_wtx.jpg",
-    imageName: "Endüstriyel su arıtma ve su soğutma kuleleri için doğa dostu doğal toksik olmayan çözümler "
-  },
-   {
     title: "Bir çiftlikte hijyen sadece temizlik midir, yoksa hastalıkları önleyen görünmez bir savunma hattı mı? 🐄",
     text: "Geleneksel dezenfektanlar uygulandıkları anda güçlü bir etki yaratır. Ancak yüzey kuruduğunda koruma büyük ölçüde sona erer ve ortam yeniden kontamine olabilir yada kirlenebilir. \n Peki ya hijyen yaklaşımı tamamen farklı olsaydı? \n HeiQ VivoTech'in <p><strong>probiyotik biyoteknolojisi</strong>, patojenlerin yaşam alanlarını faydalı mikroorganizmalarla paylaşarak baskı altına almayı hedefliyor. \n 🔬 Bu yaklaşımın temelinde "rekabetçi dışlama" prensibi bulunuyor. \n Bunun sonucunda: \n ✅ Daha uzun süreli hijyen koruması \n ✅ Biyofilm oluşumunun azaltılmasına destek \n ✅ Amonyak ve kötü kokuların kontrolüne katkı \n ✅ Daha sağlıklı yaşam alanları \n ✅ İş gücü ve operasyonel verimlilik potansiyeli \n İngiltere'de gerçekleştirilen bir saha uygulamasında; \n 📌 Antibiyotik kullanım ihtiyacının ortadan kalktığı raporlandı \n 📌 Mortalite oranlarında düşüş gözlemlendi \n 📌 Altlık neminde %50'nin üzerinde azalma kaydedildi \n 📌 Temizlik operasyonlarında önemli iş gücü tasarrufu sağlandı \n Elbette her işletmenin koşulları farklıdır. Ancak hayvancılık sektöründe sürdürülebilirlik, biyogüvenlik ve verimlilik hedefleri doğrultusunda probiyotik hijyen teknolojileri giderek daha fazla önem kazanıyor. \n Biz de <strong>Probiyom</strong> olarak Türkiye'de bu yenilikçi yaklaşımı sektörle buluşturmaktan memnuniyet duyuyoruz.",
     imageDir: "images/blogs/blog_3_ah.jpg",
     imageName: "Hayvancılıkta doğa dostu doğal toksik olmayan uçtan uca çözümler. tüm süreçlerde güvenle kullanabileceğiniz proviyotkli ürünler."
   },
+   {
+    title: "Endüstriyel Su sistemlerinde görünmeyen maliyet: Biyolfilm",
+    text: "Birçok endüstriyel su devresinde, soğutma kulelerinde ve atık su sistemlerinde performans kaybının temel nedeni biyofilm ve organik birikimlerdir. \n Peki ya çözüm daha fazla kimyasal kullanmak değilse? \n 🦠 Probiyotik bazlı su arıtma teknolojileri artık endüstriyel tesislerde gerçek sonuçlar üretiyor: \n ✅ Daha az biyosit kullanımı \n ✅ Daha düşük su ve enerji tüketimi \n ✅ Daha düşük bakım maliyetleri \n ✅ Daha temiz pompalar, filtreler ve boru hatları \n ✅ Koku oluşumunun azaltılması \n ✅ Daha sürdürülebilir operasyonlar \n Gerçek bir uygulamada; \n 🔹 Soğutma kulelerinde %40'a varan biyofilm oluşumu ortadan kaldırıldı.\n 🔹 5 yıldan uzun süre lamel temizliği ve değişimi ihtiyacı ortadan kalktı. \n 🔹 Lejyonella (Legionella) vakası görülmedi.(uygulama yapan merkezlerin bildirimi) \n🔹 Yıllık bakım ve İş Durması maliyetlerinde önemli tasarruf sağlandı. \n Endüstriyel su yönetiminin geleceği, daha fazla kimyasal kullanmak değil; mikroorganizmaların gücünden yararlanmak olabilir.",
+    imageDir: "images/blogs/blog_2_wtx.jpg",
+    imageName: "Endüstriyel su arıtma ve su soğutma kuleleri için doğa dostu doğal toksik olmayan çözümler "
+  },
+   
 ];
