@@ -19,7 +19,7 @@ function FaqList(container, items) {
         '</button>' +
         '<div class="faq-answer" role="region">' +
           '<div class="faq-answer-inner">' +
-            '<p>' + escapeHtml(item.answer) + '</p>' +
+            '<p>' + formatText(item.answer) + '</p>' +
           '</div>' +
         '</div>' +
       '</li>';

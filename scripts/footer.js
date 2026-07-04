@@ -21,6 +21,7 @@ function Footer(container) {
           '<a href="' + SiteData.instagram + '" target="_blank" rel="noopener">Instagram</a>' +
           '<a href="' + SiteData.x + '" target="_blank" rel="noopener">X</a>' +
           '<a href="' + SiteData.linkedin + '" target="_blank" rel="noopener">LinkedIn</a>' +
+          '<a href="' + SiteData.youtube + '" target="_blank" rel="noopener">YouTube</a>' +
         '</div>' +
       '</div>' +
       '<div class="footer-copy">' +

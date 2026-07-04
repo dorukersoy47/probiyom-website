@@ -30,6 +30,16 @@ function ImageSlider(container, slides, durationMs) {
       frameContent = innerContent;
     }
 
+    /* Pause / resume toggle button on the top-right of the image */
+    var pauseBtnHtml = '';
+    if (slides.length > 1) {
+      var pauseIcon = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"></rect><rect x="14" y="5" width="4" height="14" rx="1"></rect></svg>';
+      var playIcon = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 5.5v13a1 1 0 0 0 1.5.87l11-6.5a1 1 0 0 0 0-1.74l-11-6.5A1 1 0 0 0 7 5.5z"></path></svg>';
+      pauseBtnHtml = '<button type="button" class="slider-pause" aria-label="' +
+        (isPaused ? 'Slaytı devam ettir' : 'Slaytı duraklat') + '">' +
+        (isPaused ? playIcon : pauseIcon) + '</button>';
+    }
+
     var dotsHtml = '';
     for (var i = 0; i < slides.length; i++) {
       var cls = 'slider-dot' + (i === activeIndex ? ' is-active' : '');
@@ -38,7 +48,7 @@ function ImageSlider(container, slides, durationMs) {
 
     container.innerHTML =
       '<div class="slider-wrapper">' +
-        '<div class="slider-frame">' + frameContent + '</div>' +
+        '<div class="slider-frame">' + frameContent + pauseBtnHtml + '</div>' +
         '<div class="slider-dots">' + dotsHtml + '</div>' +
       '</div>';
 
@@ -50,27 +60,25 @@ function ImageSlider(container, slides, durationMs) {
       });
     }
 
-    /* Pause auto-advance while pressing on the slider frame */
-    var frame = container.querySelector('.slider-frame');
-    if (frame && slides.length > 1) {
-      var pressStart = function () {
-        isPaused = true;
-        clearTimeout(timer);
-        frame.classList.add('is-pressing');
-      };
-      var pressEnd = function () {
-        if (!isPaused) return;
-        isPaused = false;
-        frame.classList.remove('is-pressing');
-        scheduleNext();
-      };
-      frame.addEventListener('mousedown', pressStart);
-      frame.addEventListener('mouseup', pressEnd);
-      frame.addEventListener('mouseleave', pressEnd);
-      frame.addEventListener('touchstart', pressStart, { passive: true });
-      frame.addEventListener('touchend', pressEnd);
-      frame.addEventListener('touchcancel', pressEnd);
+    /* Toggle auto-advance when the pause icon is clicked */
+    var pauseBtn = container.querySelector('.slider-pause');
+    if (pauseBtn) {
+      pauseBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        togglePause();
+      });
     }
+  }
+
+  function togglePause() {
+    isPaused = !isPaused;
+    if (isPaused) {
+      clearTimeout(timer);
+    } else {
+      scheduleNext();
+    }
+    render();
   }
 
   function goTo(idx) {

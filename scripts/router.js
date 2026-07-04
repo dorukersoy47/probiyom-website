@@ -247,6 +247,12 @@ var Router = (function () {
       linkedinEl.textContent = SiteData.linkedin;
     }
 
+    var youtubeEl = document.getElementById('contact-youtube');
+    if (youtubeEl) {
+      youtubeEl.href = SiteData.youtube;
+      youtubeEl.textContent = SiteData.youtube;
+    }
+
     /* Map */
     var mapEl = document.getElementById('contact-map');
     if (mapEl) {

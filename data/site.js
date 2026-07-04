@@ -6,6 +6,7 @@ var SiteData = {
     instagram: "https://www.instagram.com/probiyom/",
     x: "https://x.com/probiyom",
     linkedin: "https://www.linkedin.com/company/probiyom",
+    youtube: "https://www.youtube.com/@Probiyom",
     lat: 40.992680,
     lon: 29.068512,
 };
