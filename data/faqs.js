@@ -8,7 +8,7 @@
 var faqs = [
   {
     question: "Probiyotik temizlik ürünleri nedir ve nasıl çalışır?",
-    answer: "Probiyotik temizlik ürünlerimiz, faydalı bakterilerin (probiyotikler) ve onların besinlerinin (prebiyotikler) patentli birleşimini içerir. Yüzeylere uygulandıktan sonra sürekli enzim üreterek organik kirleri parçalar ve yüzeylerde dengeli bir mikrobiyom oluşmasına yardımcı olur. Bu sayede temizlik etkisi kuruduktan sonra da uzun süre devam eder."
+    answer: "Probiyotik temizlik ürünlerimiz, <strong>faydalı bakterilerin (probiyotikler) ve onların besinlerinin (prebiyotikler)</strong> patentli birleşimini içerir. Yüzeylere uygulandıktan sonra sürekli enzim üreterek organik kirleri parçalar ve yüzeylerde dengeli bir mikrobiyom oluşmasına yardımcı olur. Bu sayede temizlik etkisi kuruduktan sonra da uzun süre devam eder."
   },
   {
     question: "Heiq VivoTech Zemin ve İç Mekan ürünleri arasında ki fark nedir?",
