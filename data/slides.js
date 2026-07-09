@@ -17,7 +17,7 @@ var homeSlides = [
     title: "",
   },
   {
-    src: "images/homepage_sliders/hp_9.jpg",
+    src: "images/homepage_sliders/hp_11.jpg",
     alt: "Probiyom, probiyotik bazlı ürünlerin çalışma şekli, mekanizması, probiyotikler nasıl çalışır, nası temzilik yapar, 72 saat canlı kalırlar",
     title: "",
   },
