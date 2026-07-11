@@ -26,7 +26,7 @@ function BlogList(container, posts) {
         imageHtml +
         '<div class="blog-post-body">' +
           '<h2 class="blog-post-title">' + escapeHtml(post.title) + '</h2>' +
-          '<p class="blog-post-text">' + escapeHtml(post.text) + '</p>' +
+          '<p class="blog-post-text">' + formatText(post.text) + '</p>' +
         '</div>' +
       '</article>';
   }

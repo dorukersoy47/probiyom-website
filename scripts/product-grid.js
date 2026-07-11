@@ -18,7 +18,7 @@ function ProductGrid(container, groupProducts) {
     if (p.bullets && p.bullets.length > 0) {
       bulletsHtml = '<ul>';
       for (var j = 0; j < p.bullets.length; j++) {
-        bulletsHtml += '<li>' + escapeHtml(p.bullets[j]) + '</li>';
+        bulletsHtml += '<li>' + formatText(p.bullets[j]) + '</li>';
       }
       bulletsHtml += '</ul>';
     }
@@ -35,7 +35,7 @@ function ProductGrid(container, groupProducts) {
           '<h3>' + escapeHtml(p.name) + '</h3>' +
           '<span class="product-badge ' + badgeClass + '">' + badgeText + '</span>' +
         '</div>' +
-        '<p>' + escapeHtml(p.description) + '</p>' +
+        '<p>' + formatText(p.description) + '</p>' +
         bulletsHtml +
         imageHtml +
       '</article>';

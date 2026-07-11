@@ -129,18 +129,18 @@ var Router = (function () {
       if (groupIntro) {
         var introTextHtml =
           '<div class="group-intro-text max-w-5xl">' +
-            '<p class="heading">' + escapeHtml(groupIntro.heading) + '</p>' +
+            '<p class="heading">' + formatText(groupIntro.heading) + '</p>' +
             '<ul>';
 
         for (var i = 0; i < groupIntro.bullets.length; i++) {
-          introTextHtml += '<li>' + escapeHtml(groupIntro.bullets[i]) + '</li>';
+          introTextHtml += '<li>' + formatText(groupIntro.bullets[i]) + '</li>';
         }
 
         introTextHtml += '</ul>' +
-          '<p>' + escapeHtml(groupIntro.paragraph) + '</p>';
+          '<p>' + formatText(groupIntro.paragraph) + '</p>';
 
         if (groupIntro.warning) {
-          introTextHtml += '<p class="warning">' + escapeHtml(groupIntro.warning) + '</p>';
+          introTextHtml += '<p class="warning">' + formatText(groupIntro.warning) + '</p>';
         }
 
         introTextHtml += '</div>';
